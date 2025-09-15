@@ -1,0 +1,10 @@
+/home/henrique/colcon_ws3/build/rviz2_marker_demo/CMakeFiles/uninstall.dir
+/home/henrique/colcon_ws3/build/rviz2_marker_demo/CMakeFiles/rviz2_marker_demo_uninstall.dir
+/home/henrique/colcon_ws3/build/rviz2_marker_demo/CMakeFiles/rviz_node.dir
+/home/henrique/colcon_ws3/build/rviz2_marker_demo/CMakeFiles/test.dir
+/home/henrique/colcon_ws3/build/rviz2_marker_demo/CMakeFiles/edit_cache.dir
+/home/henrique/colcon_ws3/build/rviz2_marker_demo/CMakeFiles/rebuild_cache.dir
+/home/henrique/colcon_ws3/build/rviz2_marker_demo/CMakeFiles/list_install_components.dir
+/home/henrique/colcon_ws3/build/rviz2_marker_demo/CMakeFiles/install.dir
+/home/henrique/colcon_ws3/build/rviz2_marker_demo/CMakeFiles/install/local.dir
+/home/henrique/colcon_ws3/build/rviz2_marker_demo/CMakeFiles/install/strip.dir

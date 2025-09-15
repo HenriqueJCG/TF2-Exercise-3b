@@ -1,0 +1,58 @@
+[0.036s] Invoking command in '/home/henrique/colcon_ws3/build/learning_tf2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/henrique/ros2_ws/install/temperature_system:/home/henrique/ros2_ws/install/temperature_monitor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/henrique/colcon_ws3/src/all_introduction_to_ros2_packages/learning_tf2 -DCMAKE_INSTALL_PREFIX=/home/henrique/colcon_ws3/install/learning_tf2
+[0.254s] -- The C compiler identification is GNU 13.3.0
+[0.563s] -- The CXX compiler identification is GNU 13.3.0
+[0.597s] -- Detecting C compiler ABI info
+[0.812s] -- Detecting C compiler ABI info - done
+[0.823s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.823s] -- Detecting C compile features
+[0.824s] -- Detecting C compile features - done
+[0.843s] -- Detecting CXX compiler ABI info
+[1.053s] -- Detecting CXX compiler ABI info - done
+[1.064s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.064s] -- Detecting CXX compile features
+[1.065s] -- Detecting CXX compile features - done
+[1.072s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.385s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.733s] -- Found rclcpp: 28.1.10 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.901s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.965s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.048s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.134s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.327s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.336s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.586s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.617s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.678s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.945s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[3.050s] -- Found tf2: 0.36.12 (/opt/ros/jazzy/share/tf2/cmake)
+[3.063s] -- Found tf2_ros: 0.36.12 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[3.424s] -- Found turtlesim: 1.8.3 (/opt/ros/jazzy/share/turtlesim/cmake)
+[3.457s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[3.682s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.685s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.686s] -- Configured cppcheck include dirs: 
+[3.686s] -- Configured cppcheck exclude dirs and/or files: 
+[3.689s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.689s] -- Configured cpplint exclude dirs and/or files: 
+[3.691s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.691s] -- Configured 'flake8' exclude dirs and/or files: 
+[3.693s] -- Added test 'lint_cmake' to check CMake code style
+[3.695s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.701s] -- Added test 'uncrustify' to check C / C++ code style
+[3.701s] -- Configured uncrustify additional arguments: 
+[3.704s] -- Added test 'xmllint' to check XML markup files
+[3.714s] -- Configuring done (3.6s)
+[3.748s] -- Generating done (0.0s)
+[3.756s] -- Build files have been written to: /home/henrique/colcon_ws3/build/learning_tf2
+[3.775s] Invoked command in '/home/henrique/colcon_ws3/build/learning_tf2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/henrique/ros2_ws/install/temperature_system:/home/henrique/ros2_ws/install/temperature_monitor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/henrique/colcon_ws3/src/all_introduction_to_ros2_packages/learning_tf2 -DCMAKE_INSTALL_PREFIX=/home/henrique/colcon_ws3/install/learning_tf2
+[3.779s] Invoking command in '/home/henrique/colcon_ws3/build/learning_tf2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/henrique/ros2_ws/install/temperature_system:/home/henrique/ros2_ws/install/temperature_monitor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/henrique/colcon_ws3/build/learning_tf2 -- -j2 -l2
+[3.885s] [ 25%] [32mBuilding CXX object CMakeFiles/turtle_tf2_broadcaster.dir/src/turtle_tf2_broadcaster.cpp.o[0m
+[3.889s] [ 50%] [32mBuilding CXX object CMakeFiles/turtle_tf2_listener_simple.dir/src/turtle_tf2_listener_simple.cpp.o[0m
+[6.069s] gmake[2]: *** wait: No child processes.  Stop.
+[6.070s] gmake[2]: *** Waiting for unfinished jobs....
+[6.070s] gmake[2]: *** wait: No child processes.  Stop.
+[6.070s] gmake[2]: *** [CMakeFiles/turtle_tf2_broadcaster.dir/build.make:76: CMakeFiles/turtle_tf2_broadcaster.dir/src/turtle_tf2_broadcaster.cpp.o] Interrupt
+[6.070s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/turtle_tf2_broadcaster.dir/all] Interrupt
+[6.070s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/turtle_tf2_listener_simple.dir/all] Error 2
+[6.073s] gmake: *** [Makefile:146: all] Interrupt
+[6.094s] Invoked command in '/home/henrique/colcon_ws3/build/learning_tf2' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/henrique/ros2_ws/install/temperature_system:/home/henrique/ros2_ws/install/temperature_monitor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/henrique/colcon_ws3/build/learning_tf2 -- -j2 -l2

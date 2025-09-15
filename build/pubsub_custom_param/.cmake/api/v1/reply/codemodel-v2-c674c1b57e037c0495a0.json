@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-0d6b530bfbdb7c8124d5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "pubsub_custom_param",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "publisher_class::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-publisher_class-3ea87be908f1aeaa5fee.json",
+					"name" : "publisher_class",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pubsub_custom_param_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pubsub_custom_param_uninstall-4f2ed9ba7da53b55e863.json",
+					"name" : "pubsub_custom_param_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "subscriber_class::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-subscriber_class-a98e5a09c6f537819ec0.json",
+					"name" : "subscriber_class",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-2e484d64a4f2981b71fd.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/henrique/colcon_ws3/build/pubsub_custom_param",
+		"source" : "/home/henrique/colcon_ws3/src/all_introduction_to_ros2_packages/pubsub_custom_param"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

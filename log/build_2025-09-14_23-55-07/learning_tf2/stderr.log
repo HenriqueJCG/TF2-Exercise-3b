@@ -1,0 +1,3 @@
+[0mCMake Error: The source directory "/home/henrique/colcon_ws3/src/all_introduction_to_ros2_packages/learning_tf2" does not exist.
+Specify --help for usage, or press the help button on the CMake GUI.[0m
+gmake: *** [Makefile:308: cmake_check_build_system] Error 1

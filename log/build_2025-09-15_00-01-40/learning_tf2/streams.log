@@ -1,0 +1,3 @@
+[0.096s] Invoking command in '/home/henrique/colcon_ws3/build/learning_tf2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/henrique/ros2_ws/install/temperature_system:/home/henrique/ros2_ws/install/temperature_monitor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/henrique/colcon_ws3/build/learning_tf2 -- -j2 -l2
+[0.857s] [ 50%] Built target turtle_tf2_broadcaster
+[1.193s] [100%] Built target turtle_tf2_listener_simple

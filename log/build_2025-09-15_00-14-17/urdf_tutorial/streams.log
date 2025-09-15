@@ -1,0 +1,5 @@
+[0.089s] Invoking command in '/home/henrique/colcon_ws3/build/urdf_tutorial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/henrique/ros2_ws/install/temperature_system:/home/henrique/ros2_ws/install/temperature_monitor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/henrique/colcon_ws3/build/urdf_tutorial -- -j2 -l2
+[0.296s] [0mCMake Error: The source directory "/home/henrique/colcon_ws3/src/urdf_tutorial" does not exist.
+[0.300s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.311s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.319s] Invoked command in '/home/henrique/colcon_ws3/build/urdf_tutorial' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/henrique/ros2_ws/install/temperature_system:/home/henrique/ros2_ws/install/temperature_monitor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/henrique/colcon_ws3/build/urdf_tutorial -- -j2 -l2

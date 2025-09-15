@@ -1,0 +1,48 @@
+Traceback (most recent call last):
+  File "/opt/ros/jazzy/lib/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c", line 31, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/opt/ros/jazzy/lib/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c", line 27, in main
+    generate_c(args.generator_arguments_file)
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_typesupport_introspection_c/__init__.py", line 31, in generate_c
+    return generate_files(generator_arguments_file, mapping)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_pycommon/__init__.py", line 102, in generate_files
+    idl_file = parse_idl_file(locator)
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_parser/parser.py", line 64, in parse_idl_file
+    content = parse_idl_string(string, png_file=png_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_parser/parser.py", line 72, in parse_idl_string
+    tree = get_ast_from_idl_string(idl_string)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_parser/parser.py", line 88, in get_ast_from_idl_string
+    _parser = Lark(grammar, start='specification', maybe_placeholders=False)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/lark/lark.py", line 360, in __init__
+    self.grammar, used_files = load_grammar(grammar, self.source_path, self.options.import_paths, self.options.keep_all_tokens)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/lark/load_grammar.py", line 1415, in load_grammar
+    builder.load_grammar(grammar, source)
+  File "/usr/lib/python3/dist-packages/lark/load_grammar.py", line 1255, in load_grammar
+    self.do_import(dotted_path, base_path, aliases, mangle)
+  File "/usr/lib/python3/dist-packages/lark/load_grammar.py", line 1328, in do_import
+    gb.load_grammar(text, joined_path, mangle)
+  File "/usr/lib/python3/dist-packages/lark/load_grammar.py", line 1289, in load_grammar
+    resolve_term_references(term_defs)
+  File "/usr/lib/python3/dist-packages/lark/load_grammar.py", line 876, in resolve_term_references
+    for exp in token_tree.find_data('value'):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/lark/tree.py", line 175, in find_data
+    return self.find_pred(lambda t: t.data == data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/lark/tree.py", line 171, in find_pred
+    return filter(pred, self.iter_subtrees())
+                        ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/lark/tree.py", line 147, in iter_subtrees
+    queue += [c for c in reversed(subtree.children)  # type: ignore[misc]
+              ^
+KeyboardInterrupt
+gmake[2]: *** [CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/build.make:144: rosidl_typesupport_introspection_c/custom_interfaces/msg/detail/my_message__rosidl_typesupport_introspection_c.h] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:345: CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

@@ -1,0 +1,6 @@
+{
+  "package_name": "custom_interfaces",
+  "non_idl_tuples": [
+    "/home/henrique/colcon_ws3/src/custom_interfaces:msg/MyMessage.msg"
+  ]
+}

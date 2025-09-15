@@ -1,0 +1,11 @@
+/home/henrique/colcon_ws3/build/learning_tf2/CMakeFiles/uninstall.dir
+/home/henrique/colcon_ws3/build/learning_tf2/CMakeFiles/learning_tf2_uninstall.dir
+/home/henrique/colcon_ws3/build/learning_tf2/CMakeFiles/turtle_tf2_broadcaster.dir
+/home/henrique/colcon_ws3/build/learning_tf2/CMakeFiles/turtle_tf2_listener_simple.dir
+/home/henrique/colcon_ws3/build/learning_tf2/CMakeFiles/test.dir
+/home/henrique/colcon_ws3/build/learning_tf2/CMakeFiles/edit_cache.dir
+/home/henrique/colcon_ws3/build/learning_tf2/CMakeFiles/rebuild_cache.dir
+/home/henrique/colcon_ws3/build/learning_tf2/CMakeFiles/list_install_components.dir
+/home/henrique/colcon_ws3/build/learning_tf2/CMakeFiles/install.dir
+/home/henrique/colcon_ws3/build/learning_tf2/CMakeFiles/install/local.dir
+/home/henrique/colcon_ws3/build/learning_tf2/CMakeFiles/install/strip.dir

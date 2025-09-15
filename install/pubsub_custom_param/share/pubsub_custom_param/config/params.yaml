@@ -1,0 +1,5 @@
+publisher_node:
+  ros__parameters:
+    x_dimension: 300.0
+    y_dimension: 300.0
+    z_dimension: 300.0

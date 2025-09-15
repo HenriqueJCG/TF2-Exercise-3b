@@ -1,0 +1,46 @@
+[0.066s] Invoking command in '/home/henrique/colcon_ws3/build/rviz2_marker_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/henrique/ros2_ws/install/temperature_system:/home/henrique/ros2_ws/install/temperature_monitor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/henrique/colcon_ws3/build/rviz2_marker_demo -- -j2 -l2
+[0.790s] [100%] Built target rviz_node
+[0.963s] Invoked command in '/home/henrique/colcon_ws3/build/rviz2_marker_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/henrique/ros2_ws/install/temperature_system:/home/henrique/ros2_ws/install/temperature_monitor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/henrique/colcon_ws3/build/rviz2_marker_demo -- -j2 -l2
+[1.022s] Invoking command in '/home/henrique/colcon_ws3/build/rviz2_marker_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/henrique/ros2_ws/install/temperature_system:/home/henrique/ros2_ws/install/temperature_monitor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/henrique/colcon_ws3/build/rviz2_marker_demo
+[1.072s] -- Install configuration: ""
+[1.076s] -- Up-to-date: /home/henrique/colcon_ws3/install/rviz2_marker_demo/lib/rviz2_marker_demo/rviz_node
+[1.078s] -- Up-to-date: /home/henrique/colcon_ws3/install/rviz2_marker_demo/share/rviz2_marker_demo/launch
+[1.080s] -- Up-to-date: /home/henrique/colcon_ws3/install/rviz2_marker_demo/share/rviz2_marker_demo/launch/rviz_marker_demo.launch.py
+[1.081s] -- Up-to-date: /home/henrique/colcon_ws3/install/rviz2_marker_demo/share/rviz2_marker_demo/rviz
+[1.081s] -- Up-to-date: /home/henrique/colcon_ws3/install/rviz2_marker_demo/share/rviz2_marker_demo/rviz/rviz2_marker_demo.rviz
+[1.085s] -- Up-to-date: /home/henrique/colcon_ws3/install/rviz2_marker_demo/share/rviz2_marker_demo/objects
+[1.085s] -- Up-to-date: /home/henrique/colcon_ws3/install/rviz2_marker_demo/share/rviz2_marker_demo/objects/fixtures
+[1.085s] -- Up-to-date: /home/henrique/colcon_ws3/install/rviz2_marker_demo/share/rviz2_marker_demo/objects/fixtures/Wooden_Plate.stl
+[1.089s] -- Up-to-date: /home/henrique/colcon_ws3/install/rviz2_marker_demo/share/rviz2_marker_demo/objects/fixtures/Wooden_Plate.dae
+[1.089s] -- Up-to-date: /home/henrique/colcon_ws3/install/rviz2_marker_demo/share/rviz2_marker_demo/objects/plane
+[1.090s] -- Up-to-date: /home/henrique/colcon_ws3/install/rviz2_marker_demo/share/rviz2_marker_demo/objects/plane/MotorGrill.stl
+[1.090s] -- Up-to-date: /home/henrique/colcon_ws3/install/rviz2_marker_demo/share/rviz2_marker_demo/objects/plane/Propeller.stl
+[1.090s] -- Up-to-date: /home/henrique/colcon_ws3/install/rviz2_marker_demo/share/rviz2_marker_demo/objects/plane/UpperBody.stl
+[1.091s] -- Up-to-date: /home/henrique/colcon_ws3/install/rviz2_marker_demo/share/rviz2_marker_demo/objects/plane/TopWing.stl
+[1.097s] -- Up-to-date: /home/henrique/colcon_ws3/install/rviz2_marker_demo/share/rviz2_marker_demo/objects/plane/Chassis.stl
+[1.097s] -- Up-to-date: /home/henrique/colcon_ws3/install/rviz2_marker_demo/share/rviz2_marker_demo/objects/plane/RearWheelRight.stl
+[1.098s] -- Up-to-date: /home/henrique/colcon_ws3/install/rviz2_marker_demo/share/rviz2_marker_demo/objects/plane/UpperBody.dae
+[1.100s] -- Up-to-date: /home/henrique/colcon_ws3/install/rviz2_marker_demo/share/rviz2_marker_demo/objects/plane/RearWheelLeft.stl
+[1.102s] -- Up-to-date: /home/henrique/colcon_ws3/install/rviz2_marker_demo/share/rviz2_marker_demo/objects/plane/TopWing.dae
+[1.102s] -- Up-to-date: /home/henrique/colcon_ws3/install/rviz2_marker_demo/share/rviz2_marker_demo/objects/plane/FrontWheel.stl
+[1.103s] -- Up-to-date: /home/henrique/colcon_ws3/install/rviz2_marker_demo/share/rviz2_marker_demo/objects/plane/UnderBody.stl
+[1.103s] -- Up-to-date: /home/henrique/colcon_ws3/install/rviz2_marker_demo/share/rviz2_marker_demo/objects/plane/RearWing.stl
+[1.105s] -- Up-to-date: /home/henrique/colcon_ws3/install/rviz2_marker_demo/share/rviz2_marker_demo/objects/plane/Window.stl
+[1.105s] -- Up-to-date: /home/henrique/colcon_ws3/install/rviz2_marker_demo/share/rviz2_marker_demo/objects/plane/BottomWing.stl
+[1.105s] -- Up-to-date: /home/henrique/colcon_ws3/install/rviz2_marker_demo/share/ament_index/resource_index/package_run_dependencies/rviz2_marker_demo
+[1.108s] -- Up-to-date: /home/henrique/colcon_ws3/install/rviz2_marker_demo/share/ament_index/resource_index/parent_prefix_path/rviz2_marker_demo
+[1.109s] -- Up-to-date: /home/henrique/colcon_ws3/install/rviz2_marker_demo/share/rviz2_marker_demo/environment/ament_prefix_path.sh
+[1.110s] -- Up-to-date: /home/henrique/colcon_ws3/install/rviz2_marker_demo/share/rviz2_marker_demo/environment/ament_prefix_path.dsv
+[1.110s] -- Up-to-date: /home/henrique/colcon_ws3/install/rviz2_marker_demo/share/rviz2_marker_demo/environment/path.sh
+[1.110s] -- Up-to-date: /home/henrique/colcon_ws3/install/rviz2_marker_demo/share/rviz2_marker_demo/environment/path.dsv
+[1.113s] -- Up-to-date: /home/henrique/colcon_ws3/install/rviz2_marker_demo/share/rviz2_marker_demo/local_setup.bash
+[1.114s] -- Up-to-date: /home/henrique/colcon_ws3/install/rviz2_marker_demo/share/rviz2_marker_demo/local_setup.sh
+[1.117s] -- Up-to-date: /home/henrique/colcon_ws3/install/rviz2_marker_demo/share/rviz2_marker_demo/local_setup.zsh
+[1.118s] -- Up-to-date: /home/henrique/colcon_ws3/install/rviz2_marker_demo/share/rviz2_marker_demo/local_setup.dsv
+[1.119s] -- Installing: /home/henrique/colcon_ws3/install/rviz2_marker_demo/share/rviz2_marker_demo/package.dsv
+[1.121s] -- Up-to-date: /home/henrique/colcon_ws3/install/rviz2_marker_demo/share/ament_index/resource_index/packages/rviz2_marker_demo
+[1.122s] -- Up-to-date: /home/henrique/colcon_ws3/install/rviz2_marker_demo/share/rviz2_marker_demo/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.122s] -- Up-to-date: /home/henrique/colcon_ws3/install/rviz2_marker_demo/share/rviz2_marker_demo/cmake/rviz2_marker_demoConfig.cmake
+[1.122s] -- Up-to-date: /home/henrique/colcon_ws3/install/rviz2_marker_demo/share/rviz2_marker_demo/cmake/rviz2_marker_demoConfig-version.cmake
+[1.129s] -- Up-to-date: /home/henrique/colcon_ws3/install/rviz2_marker_demo/share/rviz2_marker_demo/package.xml
+[1.130s] Invoked command in '/home/henrique/colcon_ws3/build/rviz2_marker_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/henrique/ros2_ws/install/temperature_system:/home/henrique/ros2_ws/install/temperature_monitor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/henrique/colcon_ws3/build/rviz2_marker_demo

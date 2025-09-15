@@ -1,0 +1,298 @@
+[0.000000] (-) TimerEvent: {}
+[0.000514] (custom_interfaces) JobQueued: {'identifier': 'custom_interfaces', 'dependencies': OrderedDict()}
+[0.001048] (learning_tf2) JobQueued: {'identifier': 'learning_tf2', 'dependencies': OrderedDict()}
+[0.001200] (pubsub) JobQueued: {'identifier': 'pubsub', 'dependencies': OrderedDict()}
+[0.001315] (rviz2_marker_demo) JobQueued: {'identifier': 'rviz2_marker_demo', 'dependencies': OrderedDict()}
+[0.001428] (urdf_tutorial) JobQueued: {'identifier': 'urdf_tutorial', 'dependencies': OrderedDict()}
+[0.001646] (pubsub_custom) JobQueued: {'identifier': 'pubsub_custom', 'dependencies': OrderedDict({'custom_interfaces': '/home/henrique/colcon_ws3/install/custom_interfaces'})}
+[0.005903] (pubsub_custom_param) JobQueued: {'identifier': 'pubsub_custom_param', 'dependencies': OrderedDict({'custom_interfaces': '/home/henrique/colcon_ws3/install/custom_interfaces'})}
+[0.006029] (custom_interfaces) JobStarted: {'identifier': 'custom_interfaces'}
+[0.034829] (learning_tf2) JobStarted: {'identifier': 'learning_tf2'}
+[0.073758] (custom_interfaces) JobProgress: {'identifier': 'custom_interfaces', 'progress': 'cmake'}
+[0.077915] (custom_interfaces) JobProgress: {'identifier': 'custom_interfaces', 'progress': 'build'}
+[0.081826] (custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/henrique/colcon_ws3/build/custom_interfaces', '--', '-j2', '-l2'], 'cwd': '/home/henrique/colcon_ws3/build/custom_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'henrique', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/henrique', 'OLDPWD': '/home/henrique', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1904', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/henrique/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'henrique', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'henrique', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/henrique-VMware-Virtual-Platform:@/tmp/.ICE-unix/1864,unix/henrique-VMware-Virtual-Platform:/tmp/.ICE-unix/1864', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/d936cc63_39ad_4e10_9770_176be6a7c9e9', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.UDDWC3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.514', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/henrique/ros2_ws/install/temperature_system:/home/henrique/ros2_ws/install/temperature_monitor:/home/henrique/ros2_ws/install/simple_robot_description:/home/henrique/ros2_ws/install/my_robot_description:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/henrique/colcon_ws3/build/custom_interfaces', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/henrique/ros2_ws/install/temperature_system/lib/python3.12/site-packages:/home/henrique/ros2_ws/install/temperature_monitor/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/henrique/ros2_ws/install/simple_robot_description:/home/henrique/ros2_ws/install/my_robot_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/henrique/ros2_ws/install/temperature_system:/home/henrique/ros2_ws/install/temperature_monitor:/opt/ros/jazzy'}), 'shell': False}
+[0.098491] (-) TimerEvent: {}
+[0.101829] (learning_tf2) JobProgress: {'identifier': 'learning_tf2', 'progress': 'cmake'}
+[0.105537] (learning_tf2) JobProgress: {'identifier': 'learning_tf2', 'progress': 'build'}
+[0.115118] (learning_tf2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/henrique/colcon_ws3/build/learning_tf2', '--', '-j2', '-l2'], 'cwd': '/home/henrique/colcon_ws3/build/learning_tf2', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'henrique', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/henrique', 'OLDPWD': '/home/henrique', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1904', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/henrique/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'henrique', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'henrique', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/henrique-VMware-Virtual-Platform:@/tmp/.ICE-unix/1864,unix/henrique-VMware-Virtual-Platform:/tmp/.ICE-unix/1864', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/d936cc63_39ad_4e10_9770_176be6a7c9e9', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.UDDWC3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.514', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/henrique/ros2_ws/install/temperature_system:/home/henrique/ros2_ws/install/temperature_monitor:/home/henrique/ros2_ws/install/simple_robot_description:/home/henrique/ros2_ws/install/my_robot_description:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/henrique/colcon_ws3/build/learning_tf2', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/henrique/ros2_ws/install/temperature_system/lib/python3.12/site-packages:/home/henrique/ros2_ws/install/temperature_monitor/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/henrique/ros2_ws/install/simple_robot_description:/home/henrique/ros2_ws/install/my_robot_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/henrique/ros2_ws/install/temperature_system:/home/henrique/ros2_ws/install/temperature_monitor:/opt/ros/jazzy'}), 'shell': False}
+[0.198991] (-) TimerEvent: {}
+[0.307533] (-) TimerEvent: {}
+[0.362230] (learning_tf2) StderrLine: {'line': b'\x1b[0mCMake Error: The source directory "/home/henrique/colcon_ws3/src/all_introduction_to_ros2_packages/learning_tf2" does not exist.\n'}
+[0.365451] (learning_tf2) StderrLine: {'line': b'Specify --help for usage, or press the help button on the CMake GUI.\x1b[0m\n'}
+[0.376541] (learning_tf2) StderrLine: {'line': b'gmake: *** [Makefile:308: cmake_check_build_system] Error 1\n'}
+[0.385251] (learning_tf2) CommandEnded: {'returncode': 2}
+[0.410345] (-) TimerEvent: {}
+[0.450072] (learning_tf2) JobEnded: {'identifier': 'learning_tf2', 'rc': 2}
+[0.510991] (-) TimerEvent: {}
+[0.616048] (-) TimerEvent: {}
+[0.707109] (custom_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[0.716846] (-) TimerEvent: {}
+[0.818087] (-) TimerEvent: {}
+[0.924116] (-) TimerEvent: {}
+[1.028497] (-) TimerEvent: {}
+[1.132612] (-) TimerEvent: {}
+[1.237237] (-) TimerEvent: {}
+[1.304371] (custom_interfaces) StdoutLine: {'line': b'[  2%] Built target custom_interfaces__rosidl_generator_type_description\n'}
+[1.337926] (-) TimerEvent: {}
+[1.441315] (-) TimerEvent: {}
+[1.543552] (-) TimerEvent: {}
+[1.593065] (custom_interfaces) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_custom_interfaces\n'}
+[1.645023] (-) TimerEvent: {}
+[1.749138] (-) TimerEvent: {}
+[1.777821] (custom_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.850323] (-) TimerEvent: {}
+[1.952091] (-) TimerEvent: {}
+[2.056821] (-) TimerEvent: {}
+[2.159631] (-) TimerEvent: {}
+[2.261504] (-) TimerEvent: {}
+[2.363886] (-) TimerEvent: {}
+[2.468284] (-) TimerEvent: {}
+[2.571981] (-) TimerEvent: {}
+[2.659005] (custom_interfaces) StdoutLine: {'line': b'[  5%] Built target custom_interfaces__cpp\n'}
+[2.673236] (-) TimerEvent: {}
+[2.756442] (custom_interfaces) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.773993] (-) TimerEvent: {}
+[2.875880] (-) TimerEvent: {}
+[2.977250] (-) TimerEvent: {}
+[3.086999] (-) TimerEvent: {}
+[3.191887] (-) TimerEvent: {}
+[3.293616] (-) TimerEvent: {}
+[3.399075] (-) TimerEvent: {}
+[3.504124] (-) TimerEvent: {}
+[3.607083] (-) TimerEvent: {}
+[3.709151] (-) TimerEvent: {}
+[3.813316] (-) TimerEvent: {}
+[3.919968] (-) TimerEvent: {}
+[4.022954] (-) TimerEvent: {}
+[4.129536] (-) TimerEvent: {}
+[4.234452] (-) TimerEvent: {}
+[4.252371] (custom_interfaces) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/msg/detail/my_message__description.c.o\x1b[0m\n'}
+[4.335036] (-) TimerEvent: {}
+[4.440416] (-) TimerEvent: {}
+[4.545028] (-) TimerEvent: {}
+[4.652375] (-) TimerEvent: {}
+[4.758956] (-) TimerEvent: {}
+[4.861134] (-) TimerEvent: {}
+[4.972879] (-) TimerEvent: {}
+[5.021235] (custom_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/msg/detail/my_message__functions.c.o\x1b[0m\n'}
+[5.073921] (-) TimerEvent: {}
+[5.180226] (-) TimerEvent: {}
+[5.283073] (-) TimerEvent: {}
+[5.389291] (-) TimerEvent: {}
+[5.491614] (custom_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/msg/detail/my_message__type_support.c.o\x1b[0m\n'}
+[5.492452] (-) TimerEvent: {}
+[5.597602] (-) TimerEvent: {}
+[5.703109] (-) TimerEvent: {}
+[5.808626] (-) TimerEvent: {}
+[5.815146] (custom_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libcustom_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[5.910187] (-) TimerEvent: {}
+[6.015047] (-) TimerEvent: {}
+[6.119963] (-) TimerEvent: {}
+[6.227335] (-) TimerEvent: {}
+[6.333044] (-) TimerEvent: {}
+[6.405813] (custom_interfaces) StdoutLine: {'line': b'[ 20%] Built target custom_interfaces__rosidl_generator_c\n'}
+[6.434008] (-) TimerEvent: {}
+[6.536427] (-) TimerEvent: {}
+[6.637956] (-) TimerEvent: {}
+[6.739570] (-) TimerEvent: {}
+[6.842854] (-) TimerEvent: {}
+[6.944099] (-) TimerEvent: {}
+[7.050550] (-) TimerEvent: {}
+[7.154579] (-) TimerEvent: {}
+[7.257440] (-) TimerEvent: {}
+[7.263303] (custom_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[7.266194] (custom_interfaces) StdoutLine: {'line': b'creating custom_interfaces.egg-info\n'}
+[7.323723] (custom_interfaces) StdoutLine: {'line': b'writing custom_interfaces.egg-info/PKG-INFO\n'}
+[7.325597] (custom_interfaces) StdoutLine: {'line': b'writing dependency_links to custom_interfaces.egg-info/dependency_links.txt\n'}
+[7.328289] (custom_interfaces) StdoutLine: {'line': b'writing top-level names to custom_interfaces.egg-info/top_level.txt\n'}
+[7.330971] (custom_interfaces) StdoutLine: {'line': b"writing manifest file 'custom_interfaces.egg-info/SOURCES.txt'\n"}
+[7.359652] (-) TimerEvent: {}
+[7.465577] (-) TimerEvent: {}
+[7.526086] (custom_interfaces) StdoutLine: {'line': b"reading manifest file 'custom_interfaces.egg-info/SOURCES.txt'\n"}
+[7.528874] (custom_interfaces) StdoutLine: {'line': b"writing manifest file 'custom_interfaces.egg-info/SOURCES.txt'\n"}
+[7.566090] (-) TimerEvent: {}
+[7.605168] (custom_interfaces) StdoutLine: {'line': b'[ 20%] Built target ament_cmake_python_build_custom_interfaces_egg\n'}
+[7.666996] (-) TimerEvent: {}
+[7.720410] (custom_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[7.768137] (-) TimerEvent: {}
+[7.871964] (-) TimerEvent: {}
+[7.974463] (-) TimerEvent: {}
+[8.079128] (-) TimerEvent: {}
+[8.180202] (-) TimerEvent: {}
+[8.281995] (-) TimerEvent: {}
+[8.383047] (-) TimerEvent: {}
+[8.408571] (custom_interfaces) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interfaces/msg/my_message__type_support.cpp.o\x1b[0m\n'}
+[8.483916] (-) TimerEvent: {}
+[8.587305] (-) TimerEvent: {}
+[8.690467] (-) TimerEvent: {}
+[8.799500] (-) TimerEvent: {}
+[8.908133] (-) TimerEvent: {}
+[9.010086] (-) TimerEvent: {}
+[9.112076] (-) TimerEvent: {}
+[9.216236] (-) TimerEvent: {}
+[9.319286] (-) TimerEvent: {}
+[9.422073] (-) TimerEvent: {}
+[9.527307] (-) TimerEvent: {}
+[9.634161] (-) TimerEvent: {}
+[9.739407] (-) TimerEvent: {}
+[9.844894] (-) TimerEvent: {}
+[9.951120] (-) TimerEvent: {}
+[10.056076] (-) TimerEvent: {}
+[10.160420] (-) TimerEvent: {}
+[10.237601] (custom_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[10.261230] (-) TimerEvent: {}
+[10.362918] (-) TimerEvent: {}
+[10.465243] (-) TimerEvent: {}
+[10.540045] (custom_interfaces) StdoutLine: {'line': b'[ 29%] Built target custom_interfaces__rosidl_typesupport_cpp\n'}
+[10.565955] (-) TimerEvent: {}
+[10.640871] (custom_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[10.666465] (-) TimerEvent: {}
+[10.768979] (-) TimerEvent: {}
+[10.870291] (-) TimerEvent: {}
+[10.975370] (-) TimerEvent: {}
+[11.084861] (-) TimerEvent: {}
+[11.188384] (-) TimerEvent: {}
+[11.292226] (-) TimerEvent: {}
+[11.363465] (custom_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces/msg/detail/my_message__type_support_c.cpp.o\x1b[0m\n'}
+[11.394208] (-) TimerEvent: {}
+[11.501888] (-) TimerEvent: {}
+[11.605442] (-) TimerEvent: {}
+[11.710938] (-) TimerEvent: {}
+[11.812804] (-) TimerEvent: {}
+[11.914799] (-) TimerEvent: {}
+[12.020476] (-) TimerEvent: {}
+[12.124077] (-) TimerEvent: {}
+[12.227040] (-) TimerEvent: {}
+[12.328536] (-) TimerEvent: {}
+[12.434964] (-) TimerEvent: {}
+[12.539043] (-) TimerEvent: {}
+[12.639880] (-) TimerEvent: {}
+[12.740801] (-) TimerEvent: {}
+[12.842251] (-) TimerEvent: {}
+[12.944997] (-) TimerEvent: {}
+[13.048865] (-) TimerEvent: {}
+[13.150947] (-) TimerEvent: {}
+[13.255957] (-) TimerEvent: {}
+[13.368173] (-) TimerEvent: {}
+[13.474238] (-) TimerEvent: {}
+[13.556492] (custom_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[13.575976] (-) TimerEvent: {}
+[13.679350] (-) TimerEvent: {}
+[13.787955] (-) TimerEvent: {}
+[13.893871] (-) TimerEvent: {}
+[13.995923] (-) TimerEvent: {}
+[14.097882] (-) TimerEvent: {}
+[14.201289] (-) TimerEvent: {}
+[14.302295] (custom_interfaces) StdoutLine: {'line': b'[ 38%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[14.302982] (-) TimerEvent: {}
+[14.407124] (-) TimerEvent: {}
+[14.429960] (custom_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[14.507538] (-) TimerEvent: {}
+[14.612553] (-) TimerEvent: {}
+[14.720867] (-) TimerEvent: {}
+[14.824058] (-) TimerEvent: {}
+[14.929572] (-) TimerEvent: {}
+[15.033612] (-) TimerEvent: {}
+[15.138252] (-) TimerEvent: {}
+[15.240832] (-) TimerEvent: {}
+[15.343045] (-) TimerEvent: {}
+[15.457855] (-) TimerEvent: {}
+[15.574822] (-) TimerEvent: {}
+[15.693178] (-) TimerEvent: {}
+[15.808912] (-) TimerEvent: {}
+[15.915108] (-) TimerEvent: {}
+[16.020011] (-) TimerEvent: {}
+[16.125026] (-) TimerEvent: {}
+[16.204390] (custom_interfaces) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces/msg/detail/dds_fastrtps/my_message__type_support.cpp.o\x1b[0m\n'}
+[16.226393] (-) TimerEvent: {}
+[16.332920] (-) TimerEvent: {}
+[16.435029] (-) TimerEvent: {}
+[16.539589] (-) TimerEvent: {}
+[16.644966] (-) TimerEvent: {}
+[16.746261] (-) TimerEvent: {}
+[16.853908] (-) TimerEvent: {}
+[16.955390] (-) TimerEvent: {}
+[17.063852] (-) TimerEvent: {}
+[17.165633] (-) TimerEvent: {}
+[17.270478] (-) TimerEvent: {}
+[17.379939] (-) TimerEvent: {}
+[17.481388] (-) TimerEvent: {}
+[17.585377] (-) TimerEvent: {}
+[17.688355] (-) TimerEvent: {}
+[17.792206] (-) TimerEvent: {}
+[17.894968] (-) TimerEvent: {}
+[17.997915] (-) TimerEvent: {}
+[18.102384] (-) TimerEvent: {}
+[18.207560] (-) TimerEvent: {}
+[18.306950] (custom_interfaces) StdoutLine: {'line': b'[ 47%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[18.307574] (-) TimerEvent: {}
+[18.418634] (-) TimerEvent: {}
+[18.525430] (-) TimerEvent: {}
+[18.631465] (-) TimerEvent: {}
+[18.738023] (custom_interfaces) StdoutLine: {'line': b'[ 47%] Built target custom_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[18.738849] (-) TimerEvent: {}
+[18.843323] (-) TimerEvent: {}
+[18.894769] (custom_interfaces) StdoutLine: {'line': b'[ 50%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[18.944826] (-) TimerEvent: {}
+[19.069562] (-) TimerEvent: {}
+[19.173911] (-) TimerEvent: {}
+[19.279599] (-) TimerEvent: {}
+[19.398344] (-) TimerEvent: {}
+[19.493292] (custom_interfaces) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[19.494029] (custom_interfaces) StderrLine: {'line': b'  File "/opt/ros/jazzy/lib/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c", line 31, in <module>\n'}
+[19.500881] (custom_interfaces) StderrLine: {'line': b'    sys.exit(main())\n'}
+[19.501353] (-) TimerEvent: {}
+[19.506197] (custom_interfaces) StderrLine: {'line': b'             ^^^^^^\n'}
+[19.511082] (custom_interfaces) StderrLine: {'line': b'  File "/opt/ros/jazzy/lib/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c", line 27, in main\n'}
+[19.512557] (custom_interfaces) StderrLine: {'line': b'    generate_c(args.generator_arguments_file)\n'}
+[19.513026] (custom_interfaces) StderrLine: {'line': b'  File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_typesupport_introspection_c/__init__.py", line 31, in generate_c\n'}
+[19.513413] (custom_interfaces) StderrLine: {'line': b'    return generate_files(generator_arguments_file, mapping)\n'}
+[19.513933] (custom_interfaces) StderrLine: {'line': b'           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n'}
+[19.520310] (custom_interfaces) StderrLine: {'line': b'  File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_pycommon/__init__.py", line 102, in generate_files\n'}
+[19.520932] (custom_interfaces) StderrLine: {'line': b'    idl_file = parse_idl_file(locator)\n'}
+[19.521298] (custom_interfaces) StderrLine: {'line': b'               ^^^^^^^^^^^^^^^^^^^^^^^\n'}
+[19.525123] (custom_interfaces) StderrLine: {'line': b'  File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_parser/parser.py", line 64, in parse_idl_file\n'}
+[19.528270] (custom_interfaces) StderrLine: {'line': b'    content = parse_idl_string(string, png_file=png_file)\n'}
+[19.531288] (custom_interfaces) StderrLine: {'line': b'              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n'}
+[19.532816] (custom_interfaces) StderrLine: {'line': b'  File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_parser/parser.py", line 72, in parse_idl_string\n'}
+[19.533170] (custom_interfaces) StderrLine: {'line': b'    tree = get_ast_from_idl_string(idl_string)\n'}
+[19.533507] (custom_interfaces) StderrLine: {'line': b'           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n'}
+[19.543173] (custom_interfaces) StderrLine: {'line': b'  File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_parser/parser.py", line 88, in get_ast_from_idl_string\n'}
+[19.543576] (custom_interfaces) StderrLine: {'line': b"    _parser = Lark(grammar, start='specification', maybe_placeholders=False)\n"}
+[19.548473] (custom_interfaces) StderrLine: {'line': b'              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n'}
+[19.548968] (custom_interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/lark/lark.py", line 360, in __init__\n'}
+[19.549300] (custom_interfaces) StderrLine: {'line': b'    self.grammar, used_files = load_grammar(grammar, self.source_path, self.options.import_paths, self.options.keep_all_tokens)\n'}
+[19.549652] (custom_interfaces) StderrLine: {'line': b'                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n'}
+[19.554558] (custom_interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/lark/load_grammar.py", line 1415, in load_grammar\n'}
+[19.555049] (custom_interfaces) StderrLine: {'line': b'    builder.load_grammar(grammar, source)\n'}
+[19.555408] (custom_interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/lark/load_grammar.py", line 1255, in load_grammar\n'}
+[19.557870] (custom_interfaces) StderrLine: {'line': b'    self.do_import(dotted_path, base_path, aliases, mangle)\n'}
+[19.559186] (custom_interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/lark/load_grammar.py", line 1328, in do_import\n'}
+[19.559514] (custom_interfaces) StderrLine: {'line': b'    gb.load_grammar(text, joined_path, mangle)\n'}
+[19.562151] (custom_interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/lark/load_grammar.py", line 1289, in load_grammar\n'}
+[19.562433] (custom_interfaces) StderrLine: {'line': b'    resolve_term_references(term_defs)\n'}
+[19.562803] (custom_interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/lark/load_grammar.py", line 876, in resolve_term_references\n'}
+[19.563089] (custom_interfaces) StderrLine: {'line': b"    for exp in token_tree.find_data('value'):\n"}
+[19.563344] (custom_interfaces) StderrLine: {'line': b'               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n'}
+[19.563601] (custom_interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/lark/tree.py", line 175, in find_data\n'}
+[19.566894] (custom_interfaces) StderrLine: {'line': b'    return self.find_pred(lambda t: t.data == data)\n'}
+[19.567185] (custom_interfaces) StderrLine: {'line': b'           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n'}
+[19.569854] (custom_interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/lark/tree.py", line 171, in find_pred\n'}
+[19.570209] (custom_interfaces) StderrLine: {'line': b'    return filter(pred, self.iter_subtrees())\n'}
+[19.570493] (custom_interfaces) StderrLine: {'line': b'                        ^^^^^^^^^^^^^^^^^^^^\n'}
+[19.571245] (custom_interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/lark/tree.py", line 147, in iter_subtrees\n'}
+[19.571529] (custom_interfaces) StderrLine: {'line': b'    queue += [c for c in reversed(subtree.children)  # type: ignore[misc]\n'}
+[19.573935] (custom_interfaces) StderrLine: {'line': b'              ^\n'}
+[19.574229] (custom_interfaces) StderrLine: {'line': b'KeyboardInterrupt\n'}
+[19.605184] (-) TimerEvent: {}
+[19.609373] (custom_interfaces) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/build.make:144: rosidl_typesupport_introspection_c/custom_interfaces/msg/detail/my_message__rosidl_typesupport_introspection_c.h] Interrupt\n'}
+[19.619152] (custom_interfaces) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:345: CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/all] Interrupt\n'}
+[19.623341] (custom_interfaces) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Interrupt\n'}
+[19.657293] (custom_interfaces) JobEnded: {'identifier': 'custom_interfaces', 'rc': 'SIGINT'}
+[19.732869] (pubsub) JobSkipped: {'identifier': 'pubsub'}
+[19.733075] (-) TimerEvent: {}
+[19.737278] (rviz2_marker_demo) JobSkipped: {'identifier': 'rviz2_marker_demo'}
+[19.737540] (urdf_tutorial) JobSkipped: {'identifier': 'urdf_tutorial'}
+[19.739803] (pubsub_custom) JobSkipped: {'identifier': 'pubsub_custom'}
+[19.740043] (pubsub_custom_param) JobSkipped: {'identifier': 'pubsub_custom_param'}
+[19.740173] (-) EventReactorShutdown: {}
