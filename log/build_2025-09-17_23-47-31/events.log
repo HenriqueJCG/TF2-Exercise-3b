@@ -1,0 +1,206 @@
+[0.000000] (-) TimerEvent: {}
+[0.001643] (-) JobUnselected: {'identifier': 'custom_interfaces'}
+[0.001777] (-) JobUnselected: {'identifier': 'learning_tf2'}
+[0.001876] (-) JobUnselected: {'identifier': 'pubsub_custom_param'}
+[0.001974] (-) JobUnselected: {'identifier': 'urdf_tutorial'}
+[0.002076] (rviz2_marker_demo) JobQueued: {'identifier': 'rviz2_marker_demo', 'dependencies': OrderedDict()}
+[0.002187] (rviz2_marker_demo) JobStarted: {'identifier': 'rviz2_marker_demo'}
+[0.080620] (-) TimerEvent: {}
+[0.189530] (-) TimerEvent: {}
+[0.314005] (-) TimerEvent: {}
+[0.431962] (-) TimerEvent: {}
+[0.551530] (-) TimerEvent: {}
+[0.572241] (rviz2_marker_demo) JobProgress: {'identifier': 'rviz2_marker_demo', 'progress': 'cmake'}
+[0.579789] (rviz2_marker_demo) JobProgress: {'identifier': 'rviz2_marker_demo', 'progress': 'build'}
+[0.579954] (rviz2_marker_demo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/henrique/colcon_ws3/build/rviz2_marker_demo', '--', '-j2', '-l2'], 'cwd': '/home/henrique/colcon_ws3/build/rviz2_marker_demo', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'henrique', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/henrique/colcon_ws3/install/custom_interfaces/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/henrique', 'OLDPWD': '/home/henrique', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1899', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/henrique/colcon_ws3/install:/home/henrique/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'henrique', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'henrique', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/henrique-VMware-Virtual-Platform:@/tmp/.ICE-unix/1868,unix/henrique-VMware-Virtual-Platform:/tmp/.ICE-unix/1868', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/60e29a9e_87ff_41d1_b4e6_c5d3669b8f73', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.2EDWC3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.262', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/henrique/colcon_ws3/install/urdf_tutorial:/home/henrique/colcon_ws3/install/rviz2_marker_demo:/home/henrique/colcon_ws3/install/pubsub_custom_param:/home/henrique/colcon_ws3/install/learning_tf2:/home/henrique/colcon_ws3/install/custom_interfaces:/home/henrique/ros2_ws/install/temperature_system:/home/henrique/ros2_ws/install/temperature_monitor:/home/henrique/ros2_ws/install/simple_robot_description:/home/henrique/ros2_ws/install/my_robot_description:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/henrique/colcon_ws3/build/rviz2_marker_demo', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/henrique/colcon_ws3/install/custom_interfaces/lib/python3.12/site-packages:/home/henrique/ros2_ws/install/temperature_system/lib/python3.12/site-packages:/home/henrique/ros2_ws/install/temperature_monitor/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/henrique/colcon_ws3/install/urdf_tutorial:/home/henrique/colcon_ws3/install/rviz2_marker_demo:/home/henrique/colcon_ws3/install/pubsub_custom_param:/home/henrique/colcon_ws3/install/learning_tf2:/home/henrique/colcon_ws3/install/custom_interfaces:/home/henrique/ros2_ws/install/simple_robot_description:/home/henrique/ros2_ws/install/my_robot_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/henrique/ros2_ws/install/temperature_system:/home/henrique/ros2_ws/install/temperature_monitor:/opt/ros/jazzy'}), 'shell': False}
+[0.663844] (-) TimerEvent: {}
+[0.776734] (-) TimerEvent: {}
+[0.891759] (-) TimerEvent: {}
+[0.997683] (-) TimerEvent: {}
+[1.100487] (-) TimerEvent: {}
+[1.213932] (-) TimerEvent: {}
+[1.324950] (-) TimerEvent: {}
+[1.435058] (-) TimerEvent: {}
+[1.538163] (-) TimerEvent: {}
+[1.640005] (-) TimerEvent: {}
+[1.707130] (rviz2_marker_demo) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/rviz_node.dir/src/rviz_node.cpp.o\x1b[0m\n'}
+[1.740874] (-) TimerEvent: {}
+[1.870067] (-) TimerEvent: {}
+[1.972164] (-) TimerEvent: {}
+[2.076613] (-) TimerEvent: {}
+[2.179072] (-) TimerEvent: {}
+[2.283105] (-) TimerEvent: {}
+[2.387687] (-) TimerEvent: {}
+[2.500539] (-) TimerEvent: {}
+[2.602514] (-) TimerEvent: {}
+[2.706147] (-) TimerEvent: {}
+[2.811581] (-) TimerEvent: {}
+[2.914666] (-) TimerEvent: {}
+[3.017070] (-) TimerEvent: {}
+[3.121613] (-) TimerEvent: {}
+[3.224751] (-) TimerEvent: {}
+[3.329786] (-) TimerEvent: {}
+[3.440612] (-) TimerEvent: {}
+[3.548501] (-) TimerEvent: {}
+[3.652728] (-) TimerEvent: {}
+[3.756581] (-) TimerEvent: {}
+[3.862735] (-) TimerEvent: {}
+[3.972292] (-) TimerEvent: {}
+[4.074628] (-) TimerEvent: {}
+[4.175489] (-) TimerEvent: {}
+[4.279145] (-) TimerEvent: {}
+[4.382505] (-) TimerEvent: {}
+[4.484511] (-) TimerEvent: {}
+[4.587571] (-) TimerEvent: {}
+[4.689679] (-) TimerEvent: {}
+[4.801032] (-) TimerEvent: {}
+[4.909555] (-) TimerEvent: {}
+[5.016726] (-) TimerEvent: {}
+[5.122585] (-) TimerEvent: {}
+[5.228187] (-) TimerEvent: {}
+[5.330022] (-) TimerEvent: {}
+[5.433801] (-) TimerEvent: {}
+[5.541980] (-) TimerEvent: {}
+[5.644811] (-) TimerEvent: {}
+[5.747966] (-) TimerEvent: {}
+[5.853221] (-) TimerEvent: {}
+[5.957552] (-) TimerEvent: {}
+[6.064489] (-) TimerEvent: {}
+[6.171750] (-) TimerEvent: {}
+[6.277681] (-) TimerEvent: {}
+[6.387620] (-) TimerEvent: {}
+[6.497283] (-) TimerEvent: {}
+[6.606936] (-) TimerEvent: {}
+[6.710474] (-) TimerEvent: {}
+[6.815919] (-) TimerEvent: {}
+[6.923782] (-) TimerEvent: {}
+[7.029004] (-) TimerEvent: {}
+[7.136911] (-) TimerEvent: {}
+[7.238545] (-) TimerEvent: {}
+[7.342081] (-) TimerEvent: {}
+[7.448859] (-) TimerEvent: {}
+[7.554979] (-) TimerEvent: {}
+[7.660631] (-) TimerEvent: {}
+[7.764557] (-) TimerEvent: {}
+[7.869222] (-) TimerEvent: {}
+[7.975533] (-) TimerEvent: {}
+[8.076971] (-) TimerEvent: {}
+[8.181018] (-) TimerEvent: {}
+[8.283774] (-) TimerEvent: {}
+[8.387921] (-) TimerEvent: {}
+[8.495188] (-) TimerEvent: {}
+[8.603059] (-) TimerEvent: {}
+[8.704716] (-) TimerEvent: {}
+[8.808411] (-) TimerEvent: {}
+[8.913190] (-) TimerEvent: {}
+[9.019081] (-) TimerEvent: {}
+[9.122102] (-) TimerEvent: {}
+[9.226638] (-) TimerEvent: {}
+[9.334027] (-) TimerEvent: {}
+[9.442962] (-) TimerEvent: {}
+[9.546903] (-) TimerEvent: {}
+[9.652210] (-) TimerEvent: {}
+[9.757858] (-) TimerEvent: {}
+[9.863962] (-) TimerEvent: {}
+[9.966194] (-) TimerEvent: {}
+[10.070781] (-) TimerEvent: {}
+[10.176046] (-) TimerEvent: {}
+[10.277914] (-) TimerEvent: {}
+[10.383619] (-) TimerEvent: {}
+[10.484818] (-) TimerEvent: {}
+[10.594687] (-) TimerEvent: {}
+[10.703686] (-) TimerEvent: {}
+[10.814018] (-) TimerEvent: {}
+[10.916635] (-) TimerEvent: {}
+[11.020836] (-) TimerEvent: {}
+[11.124262] (-) TimerEvent: {}
+[11.229838] (-) TimerEvent: {}
+[11.337507] (-) TimerEvent: {}
+[11.440203] (-) TimerEvent: {}
+[11.548978] (-) TimerEvent: {}
+[11.652015] (-) TimerEvent: {}
+[11.754814] (-) TimerEvent: {}
+[11.860200] (-) TimerEvent: {}
+[11.968584] (-) TimerEvent: {}
+[12.074196] (-) TimerEvent: {}
+[12.177581] (-) TimerEvent: {}
+[12.282526] (-) TimerEvent: {}
+[12.386592] (-) TimerEvent: {}
+[12.491964] (-) TimerEvent: {}
+[12.598041] (-) TimerEvent: {}
+[12.702769] (-) TimerEvent: {}
+[12.808577] (-) TimerEvent: {}
+[12.829052] (rviz2_marker_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/henrique/colcon_ws3/src/rviz2_marker_demo/src/rviz_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MarkerPublisherNode::\x1b[01;32m\x1b[Ktimer_callback\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.835919] (rviz2_marker_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/henrique/colcon_ws3/src/rviz2_marker_demo/src/rviz_node.cpp:131:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing geometry_msgs::msg::TransformStamped = struct geometry_msgs::msg::TransformStamped_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct geometry_msgs::msg::TransformStamped_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kscale\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.849120] (rviz2_marker_demo) StderrLine: {'line': b'  131 |         t.\x1b[01;31m\x1b[Kscale\x1b[m\x1b[K.x = objects[i].getscale();\n'}
+[12.864956] (rviz2_marker_demo) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[12.866079] (rviz2_marker_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/henrique/colcon_ws3/src/rviz2_marker_demo/src/rviz_node.cpp:132:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing geometry_msgs::msg::TransformStamped = struct geometry_msgs::msg::TransformStamped_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct geometry_msgs::msg::TransformStamped_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kscale\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.867152] (rviz2_marker_demo) StderrLine: {'line': b'  132 |         t.\x1b[01;31m\x1b[Kscale\x1b[m\x1b[K.y = objects[i].getscale();\n'}
+[12.868267] (rviz2_marker_demo) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[12.869526] (rviz2_marker_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/henrique/colcon_ws3/src/rviz2_marker_demo/src/rviz_node.cpp:133:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing geometry_msgs::msg::TransformStamped = struct geometry_msgs::msg::TransformStamped_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct geometry_msgs::msg::TransformStamped_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kscale\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.870257] (rviz2_marker_demo) StderrLine: {'line': b'  133 |         t.\x1b[01;31m\x1b[Kscale\x1b[m\x1b[K.z = objects[i].getscale();\n'}
+[12.871532] (rviz2_marker_demo) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[12.872574] (rviz2_marker_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/henrique/colcon_ws3/src/rviz2_marker_demo/src/rviz_node.cpp:134:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing geometry_msgs::msg::TransformStamped = struct geometry_msgs::msg::TransformStamped_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct geometry_msgs::msg::TransformStamped_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kcolor\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.873598] (rviz2_marker_demo) StderrLine: {'line': b"  134 |         t.\x1b[01;31m\x1b[Kcolor\x1b[m\x1b[K.a = 1.0; // Don't forget to set the alpha!\n"}
+[12.876752] (rviz2_marker_demo) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[12.877696] (rviz2_marker_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/henrique/colcon_ws3/src/rviz2_marker_demo/src/rviz_node.cpp:135:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing geometry_msgs::msg::TransformStamped = struct geometry_msgs::msg::TransformStamped_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct geometry_msgs::msg::TransformStamped_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kcolor\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.880719] (rviz2_marker_demo) StderrLine: {'line': b'  135 |         t.\x1b[01;31m\x1b[Kcolor\x1b[m\x1b[K.r = objects[i].getr();\n'}
+[12.881860] (rviz2_marker_demo) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[12.884184] (rviz2_marker_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/henrique/colcon_ws3/src/rviz2_marker_demo/src/rviz_node.cpp:136:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing geometry_msgs::msg::TransformStamped = struct geometry_msgs::msg::TransformStamped_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct geometry_msgs::msg::TransformStamped_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kcolor\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.885132] (rviz2_marker_demo) StderrLine: {'line': b'  136 |         t.\x1b[01;31m\x1b[Kcolor\x1b[m\x1b[K.g = objects[i].getg();\n'}
+[12.886188] (rviz2_marker_demo) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[12.888121] (rviz2_marker_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/henrique/colcon_ws3/src/rviz2_marker_demo/src/rviz_node.cpp:137:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing geometry_msgs::msg::TransformStamped = struct geometry_msgs::msg::TransformStamped_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct geometry_msgs::msg::TransformStamped_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kcolor\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.892883] (rviz2_marker_demo) StderrLine: {'line': b'  137 |         t.\x1b[01;31m\x1b[Kcolor\x1b[m\x1b[K.b = objects[i].getb();\n'}
+[12.898179] (rviz2_marker_demo) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[12.919736] (-) TimerEvent: {}
+[13.026831] (-) TimerEvent: {}
+[13.128603] (-) TimerEvent: {}
+[13.236818] (-) TimerEvent: {}
+[13.345551] (-) TimerEvent: {}
+[13.454832] (-) TimerEvent: {}
+[13.557530] (-) TimerEvent: {}
+[13.661943] (-) TimerEvent: {}
+[13.768201] (-) TimerEvent: {}
+[13.877667] (-) TimerEvent: {}
+[13.988457] (-) TimerEvent: {}
+[14.090184] (-) TimerEvent: {}
+[14.196106] (-) TimerEvent: {}
+[14.301924] (-) TimerEvent: {}
+[14.408105] (-) TimerEvent: {}
+[14.519833] (-) TimerEvent: {}
+[14.629564] (-) TimerEvent: {}
+[14.732650] (-) TimerEvent: {}
+[14.838609] (-) TimerEvent: {}
+[14.941736] (-) TimerEvent: {}
+[15.044725] (-) TimerEvent: {}
+[15.151811] (-) TimerEvent: {}
+[15.254680] (-) TimerEvent: {}
+[15.359592] (-) TimerEvent: {}
+[15.461084] (-) TimerEvent: {}
+[15.567767] (-) TimerEvent: {}
+[15.672718] (-) TimerEvent: {}
+[15.775900] (-) TimerEvent: {}
+[15.881040] (-) TimerEvent: {}
+[15.987763] (-) TimerEvent: {}
+[16.091787] (-) TimerEvent: {}
+[16.198461] (-) TimerEvent: {}
+[16.302251] (-) TimerEvent: {}
+[16.406277] (-) TimerEvent: {}
+[16.510715] (-) TimerEvent: {}
+[16.617758] (-) TimerEvent: {}
+[16.722518] (-) TimerEvent: {}
+[16.826431] (-) TimerEvent: {}
+[16.936621] (-) TimerEvent: {}
+[17.043718] (-) TimerEvent: {}
+[17.150849] (-) TimerEvent: {}
+[17.255469] (-) TimerEvent: {}
+[17.359292] (-) TimerEvent: {}
+[17.463896] (-) TimerEvent: {}
+[17.568996] (-) TimerEvent: {}
+[17.616958] (rviz2_marker_demo) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/rviz_node.dir/build.make:76: CMakeFiles/rviz_node.dir/src/rviz_node.cpp.o] Error 1\n'}
+[17.621088] (rviz2_marker_demo) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/rviz_node.dir/all] Error 2\n'}
+[17.625503] (rviz2_marker_demo) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[17.635943] (rviz2_marker_demo) CommandEnded: {'returncode': 2}
+[17.666788] (rviz2_marker_demo) JobEnded: {'identifier': 'rviz2_marker_demo', 'rc': 2}
+[17.680994] (-) TimerEvent: {}
+[17.682983] (-) EventReactorShutdown: {}

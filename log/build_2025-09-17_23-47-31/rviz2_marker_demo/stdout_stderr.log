@@ -1,0 +1,26 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/rviz_node.dir/src/rviz_node.cpp.o[0m
+[01m[K/home/henrique/colcon_ws3/src/rviz2_marker_demo/src/rviz_node.cpp:[m[K In member function ‘[01m[Kvoid MarkerPublisherNode::[01;32m[Ktimer_callback[m[K()[m[K’:
+[01m[K/home/henrique/colcon_ws3/src/rviz2_marker_demo/src/rviz_node.cpp:131:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing geometry_msgs::msg::TransformStamped = struct geometry_msgs::msg::TransformStamped_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::TransformStamped_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kscale[m[K’
+  131 |         t.[01;31m[Kscale[m[K.x = objects[i].getscale();
+      |           [01;31m[K^~~~~[m[K
+[01m[K/home/henrique/colcon_ws3/src/rviz2_marker_demo/src/rviz_node.cpp:132:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing geometry_msgs::msg::TransformStamped = struct geometry_msgs::msg::TransformStamped_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::TransformStamped_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kscale[m[K’
+  132 |         t.[01;31m[Kscale[m[K.y = objects[i].getscale();
+      |           [01;31m[K^~~~~[m[K
+[01m[K/home/henrique/colcon_ws3/src/rviz2_marker_demo/src/rviz_node.cpp:133:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing geometry_msgs::msg::TransformStamped = struct geometry_msgs::msg::TransformStamped_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::TransformStamped_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kscale[m[K’
+  133 |         t.[01;31m[Kscale[m[K.z = objects[i].getscale();
+      |           [01;31m[K^~~~~[m[K
+[01m[K/home/henrique/colcon_ws3/src/rviz2_marker_demo/src/rviz_node.cpp:134:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing geometry_msgs::msg::TransformStamped = struct geometry_msgs::msg::TransformStamped_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::TransformStamped_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kcolor[m[K’
+  134 |         t.[01;31m[Kcolor[m[K.a = 1.0; // Don't forget to set the alpha!
+      |           [01;31m[K^~~~~[m[K
+[01m[K/home/henrique/colcon_ws3/src/rviz2_marker_demo/src/rviz_node.cpp:135:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing geometry_msgs::msg::TransformStamped = struct geometry_msgs::msg::TransformStamped_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::TransformStamped_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kcolor[m[K’
+  135 |         t.[01;31m[Kcolor[m[K.r = objects[i].getr();
+      |           [01;31m[K^~~~~[m[K
+[01m[K/home/henrique/colcon_ws3/src/rviz2_marker_demo/src/rviz_node.cpp:136:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing geometry_msgs::msg::TransformStamped = struct geometry_msgs::msg::TransformStamped_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::TransformStamped_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kcolor[m[K’
+  136 |         t.[01;31m[Kcolor[m[K.g = objects[i].getg();
+      |           [01;31m[K^~~~~[m[K
+[01m[K/home/henrique/colcon_ws3/src/rviz2_marker_demo/src/rviz_node.cpp:137:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing geometry_msgs::msg::TransformStamped = struct geometry_msgs::msg::TransformStamped_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::TransformStamped_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kcolor[m[K’
+  137 |         t.[01;31m[Kcolor[m[K.b = objects[i].getb();
+      |           [01;31m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/rviz_node.dir/build.make:76: CMakeFiles/rviz_node.dir/src/rviz_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/rviz_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

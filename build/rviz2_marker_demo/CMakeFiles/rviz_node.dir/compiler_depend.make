@@ -22,10 +22,17 @@ CMakeFiles/rviz_node.dir/src/rviz_node.cpp.o: /home/henrique/colcon_ws3/src/rviz
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__type_support.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__builder.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__type_support.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/pose.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/transform_stamped.hpp \
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/collector.hpp \
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp \
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/metric_details_interface.hpp \
@@ -408,6 +415,22 @@ CMakeFiles/rviz_node.dir/src/rviz_node.cpp.o: /home/henrique/colcon_ws3/src/rviz
   /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/color_rgba__traits.hpp \
   /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__struct.hpp \
   /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__traits.hpp \
+  /opt/ros/jazzy/include/tf2/tf2/LinearMath/MinMax.hpp \
+  /opt/ros/jazzy/include/tf2/tf2/LinearMath/QuadWord.hpp \
+  /opt/ros/jazzy/include/tf2/tf2/LinearMath/Quaternion.h \
+  /opt/ros/jazzy/include/tf2/tf2/LinearMath/Quaternion.hpp \
+  /opt/ros/jazzy/include/tf2/tf2/LinearMath/Scalar.hpp \
+  /opt/ros/jazzy/include/tf2/tf2/LinearMath/Vector3.hpp \
+  /opt/ros/jazzy/include/tf2/tf2/visibility_control.h \
+  /opt/ros/jazzy/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__builder.hpp \
+  /opt/ros/jazzy/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__struct.hpp \
+  /opt/ros/jazzy/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__traits.hpp \
+  /opt/ros/jazzy/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__type_support.hpp \
+  /opt/ros/jazzy/include/tf2_msgs/tf2_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/tf2_msgs/tf2_msgs/msg/tf_message.hpp \
+  /opt/ros/jazzy/include/tf2_ros/tf2_ros/qos.hpp \
+  /opt/ros/jazzy/include/tf2_ros/tf2_ros/transform_broadcaster.h \
+  /opt/ros/jazzy/include/tf2_ros/tf2_ros/visibility_control.h \
   /opt/ros/jazzy/include/tracetools/tracetools/config.h \
   /opt/ros/jazzy/include/tracetools/tracetools/tracetools.h \
   /opt/ros/jazzy/include/tracetools/tracetools/utils.hpp \
@@ -558,6 +581,7 @@ CMakeFiles/rviz_node.dir/src/rviz_node.cpp.o: /home/henrique/colcon_ws3/src/rviz
   /usr/include/c++/13/cassert \
   /usr/include/c++/13/cctype \
   /usr/include/c++/13/cerrno \
+  /usr/include/c++/13/cfloat \
   /usr/include/c++/13/chrono \
   /usr/include/c++/13/clocale \
   /usr/include/c++/13/cmath \
@@ -598,6 +622,7 @@ CMakeFiles/rviz_node.dir/src/rviz_node.cpp.o: /home/henrique/colcon_ws3/src/rviz
   /usr/include/c++/13/list \
   /usr/include/c++/13/locale \
   /usr/include/c++/13/map \
+  /usr/include/c++/13/math.h \
   /usr/include/c++/13/memory \
   /usr/include/c++/13/mutex \
   /usr/include/c++/13/new \
@@ -783,6 +808,7 @@ CMakeFiles/rviz_node.dir/src/rviz_node.cpp.o: /home/henrique/colcon_ws3/src/rviz
   /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
   /usr/include/x86_64-linux-gnu/sys/types.h \
   /usr/include/x86_64-linux-gnu/sys/ucontext.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/float.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdalign.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h \
@@ -799,8 +825,6 @@ CMakeFiles/rviz_node.dir/src/rviz_node.cpp.o: /home/henrique/colcon_ws3/src/rviz
 /usr/lib/gcc/x86_64-linux-gnu/13/include/stdalign.h:
 
 /usr/include/x86_64-linux-gnu/sys/single_threaded.h:
-
-/usr/include/x86_64-linux-gnu/sys/cdefs.h:
 
 /usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
 
@@ -854,8 +878,6 @@ CMakeFiles/rviz_node.dir/src/rviz_node.cpp.o: /home/henrique/colcon_ws3/src/rviz
 
 /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
-
 /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/time_t.h:
@@ -867,8 +889,6 @@ CMakeFiles/rviz_node.dir/src/rviz_node.cpp.o: /home/henrique/colcon_ws3/src/rviz
 /usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdint-least.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
 
@@ -908,8 +928,6 @@ CMakeFiles/rviz_node.dir/src/rviz_node.cpp.o: /home/henrique/colcon_ws3/src/rviz
 
 /usr/include/x86_64-linux-gnu/bits/iscanonical.h:
 
-/usr/include/x86_64-linux-gnu/bits/fp-logb.h:
-
 /usr/include/x86_64-linux-gnu/bits/fp-fast.h:
 
 /usr/include/x86_64-linux-gnu/bits/floatn.h:
@@ -948,8 +966,6 @@ CMakeFiles/rviz_node.dir/src/rviz_node.cpp.o: /home/henrique/colcon_ws3/src/rviz
 
 /usr/include/errno.h:
 
-/usr/include/ctype.h:
-
 /usr/include/c++/13/vector:
 
 /usr/include/c++/13/utility:
@@ -957,8 +973,6 @@ CMakeFiles/rviz_node.dir/src/rviz_node.cpp.o: /home/henrique/colcon_ws3/src/rviz
 /usr/include/c++/13/unordered_set:
 
 /usr/include/c++/13/unordered_map:
-
-/usr/include/c++/13/tr1/riemann_zeta.tcc:
 
 /usr/include/c++/13/tr1/special_function_util.h:
 
@@ -969,8 +983,6 @@ CMakeFiles/rviz_node.dir/src/rviz_node.cpp.o: /home/henrique/colcon_ws3/src/rviz
 /usr/include/c++/13/tr1/poly_hermite.tcc:
 
 /usr/include/c++/13/tr1/modified_bessel_func.tcc:
-
-/usr/include/c++/13/tr1/exp_integral.tcc:
 
 /usr/include/c++/13/tr1/ell_integral.tcc:
 
@@ -1017,6 +1029,10 @@ CMakeFiles/rviz_node.dir/src/rviz_node.cpp.o: /home/henrique/colcon_ws3/src/rviz
 /usr/include/c++/13/mutex:
 
 /usr/include/c++/13/memory:
+
+/usr/include/c++/13/tr1/exp_integral.tcc:
+
+/usr/include/c++/13/math.h:
 
 /usr/include/c++/13/map:
 
@@ -1076,6 +1092,10 @@ CMakeFiles/rviz_node.dir/src/rviz_node.cpp.o: /home/henrique/colcon_ws3/src/rviz
 
 /usr/include/c++/13/chrono:
 
+/usr/include/ctype.h:
+
+/usr/include/c++/13/cfloat:
+
 /usr/include/c++/13/bits/vector.tcc:
 
 /usr/include/c++/13/bits/utility.h:
@@ -1096,15 +1116,35 @@ CMakeFiles/rviz_node.dir/src/rviz_node.cpp.o: /home/henrique/colcon_ws3/src/rviz
 
 /usr/include/c++/13/bits/string_view.tcc:
 
-/opt/ros/jazzy/include/rclcpp/rclcpp/service.hpp:
+/usr/include/c++/13/bits/streambuf.tcc:
 
-/opt/ros/jazzy/include/rmw/rmw/get_topic_names_and_types.h:
+/usr/include/c++/13/bits/stream_iterator.h:
 
-/opt/ros/jazzy/include/rclcpp/rclcpp/serialization.hpp:
+/usr/include/x86_64-linux-gnu/bits/getopt_core.h:
 
-/usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
+/usr/include/c++/13/bits/stl_vector.h:
 
-/opt/ros/jazzy/include/rosidl_runtime_cpp/rosidl_runtime_cpp/traits.hpp:
+/usr/include/c++/13/bits/stl_tempbuf.h:
+
+/usr/include/c++/13/bits/stl_set.h:
+
+/usr/include/c++/13/bits/stl_relops.h:
+
+/usr/include/c++/13/bits/stl_queue.h:
+
+/usr/include/c++/13/bits/stl_pair.h:
+
+/usr/include/c++/13/bits/stl_numeric.h:
+
+/usr/include/c++/13/bits/stl_multimap.h:
+
+/usr/include/c++/13/bits/stl_iterator_base_types.h:
+
+/usr/include/c++/13/bits/stl_function.h:
+
+/usr/include/c++/13/bits/stl_deque.h:
+
+/usr/include/c++/13/bits/stl_construct.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
 
@@ -1134,13 +1174,7 @@ CMakeFiles/rviz_node.dir/src/rviz_node.cpp.o: /home/henrique/colcon_ws3/src/rviz
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/experimental/subscription_intra_process.hpp:
 
-/opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_time_source_interface.hpp:
-
 /opt/ros/jazzy/include/rcutils/rcutils/sha256.h:
-
-/opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_services_interface.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/detail/rmw_implementation_specific_payload.hpp:
 
@@ -1153,10 +1187,6 @@ CMakeFiles/rviz_node.dir/src/rviz_node.cpp.o: /home/henrique/colcon_ws3/src/rviz
 /usr/include/c++/13/streambuf:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_clock_interface.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_base_interface_traits.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/wait_set.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_base_interface.hpp:
 
@@ -1173,8 +1203,6 @@ CMakeFiles/rviz_node.dir/src/rviz_node.cpp.o: /home/henrique/colcon_ws3/src/rviz
 /opt/ros/jazzy/include/rcutils/rcutils/allocator.h:
 
 /opt/ros/jazzy/include/rmw/rmw/security_options.h:
-
-/usr/include/c++/13/bits/stl_deque.h:
 
 /usr/include/c++/13/codecvt:
 
@@ -1224,14 +1252,6 @@ CMakeFiles/rviz_node.dir/src/rviz_node.cpp.o: /home/henrique/colcon_ws3/src/rviz
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/set_parameters.hpp:
 
-/opt/ros/jazzy/include/rclcpp/rclcpp/rate.hpp:
-
-/usr/include/c++/13/cctype:
-
-/opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/constants.hpp:
-
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__traits.hpp:
-
 /opt/ros/jazzy/include/rclcpp/rclcpp/guard_condition.hpp:
 
 /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h:
@@ -1240,23 +1260,19 @@ CMakeFiles/rviz_node.dir/src/rviz_node.cpp.o: /home/henrique/colcon_ws3/src/rviz
 
 /opt/ros/jazzy/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h:
 
-/usr/include/c++/13/bits/stl_tempbuf.h:
-
 /usr/include/c++/13/ostream:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/executors/executor_notify_waitable.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/detail/rmw_implementation_specific_publisher_payload.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/publisher.hpp:
 
-/usr/include/string.h:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/serialized_message.hpp:
-
 /opt/ros/jazzy/include/rclcpp/rclcpp/executor_options.hpp:
+
+/usr/include/c++/13/bits/stl_iterator.h:
+
+/opt/ros/jazzy/include/rmw/rmw/events_statuses/incompatible_qos.h:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/exceptions.hpp:
 
@@ -1276,15 +1292,9 @@ CMakeFiles/rviz_node.dir/src/rviz_node.cpp.o: /home/henrique/colcon_ws3/src/rviz
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__builder.hpp:
 
-/usr/include/c++/13/bits/stl_queue.h:
-
 /usr/include/x86_64-linux-gnu/bits/timex.h:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/detail/resolve_intra_process_buffer_type.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:
-
-/opt/ros/jazzy/include/rcl/rcl/client.h:
 
 /usr/include/pthread.h:
 
@@ -1298,8 +1308,6 @@ CMakeFiles/rviz_node.dir/src/rviz_node.cpp.o: /home/henrique/colcon_ws3/src/rviz
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__traits.hpp:
 
-/usr/include/c++/13/bits/stl_multimap.h:
-
 /opt/ros/jazzy/include/rclcpp/rclcpp/create_subscription.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/create_publisher.hpp:
@@ -1309,8 +1317,6 @@ CMakeFiles/rviz_node.dir/src/rviz_node.cpp.o: /home/henrique/colcon_ws3/src/rviz
 /opt/ros/jazzy/include/rclcpp/rclcpp/parameter_value.hpp:
 
 /opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__type_support.hpp:
-
-/usr/include/c++/13/bits/stl_construct.h:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/detail/resolve_use_intra_process.hpp:
 
@@ -1350,33 +1356,21 @@ CMakeFiles/rviz_node.dir/src/rviz_node.cpp.o: /home/henrique/colcon_ws3/src/rviz
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp:
 
-/opt/ros/jazzy/include/rclcpp/rclcpp/experimental/buffers/intra_process_buffer.hpp:
+/usr/include/c++/13/bits/algorithmfwd.h:
 
-/opt/ros/jazzy/include/rclcpp/rclcpp/exceptions/exceptions.hpp:
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/get_parameter_types.hpp:
 
-/opt/ros/jazzy/include/rcl/rcl/service.h:
+/opt/ros/jazzy/include/rmw/rmw/qos_policy_kind.h:
 
-/usr/include/c++/13/system_error:
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__type_support.hpp:
 
-/usr/include/c++/13/bits/ostream_insert.h:
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/integer_range__traits.hpp:
 
-/usr/include/c++/13/bits/stl_set.h:
+/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__traits.hpp:
 
-/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__type_support.hpp:
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__traits.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/experimental/subscription_intra_process_buffer.hpp:
-
-/opt/ros/jazzy/include/rmw/rmw/events_statuses/liveliness_changed.h:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/network_flow_endpoint.hpp:
-
-/opt/ros/jazzy/include/rcl/rcl/guard_condition.h:
-
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/experimental/ros_message_intra_process_buffer.hpp:
+/opt/ros/jazzy/include/rcpputils/rcpputils/shared_library.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/detail/cpp_callback_trampoline.hpp:
 
@@ -1392,15 +1386,13 @@ CMakeFiles/rviz_node.dir/src/rviz_node.cpp.o: /home/henrique/colcon_ws3/src/rviz
 
 /usr/include/c++/13/bits/shared_ptr_atomic.h:
 
+/opt/ros/jazzy/include/rcl/rcl/domain_id.h:
+
 /opt/ros/jazzy/include/rclcpp/rclcpp/executors/static_single_threaded_executor.hpp:
 
 /opt/ros/jazzy/include/rcl/rcl/arguments.h:
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__struct.hpp:
-
-/opt/ros/jazzy/include/rmw/rmw/events_statuses/incompatible_qos.h:
-
-/usr/include/c++/13/bits/stl_iterator.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
 
@@ -1418,6 +1410,10 @@ CMakeFiles/rviz_node.dir/src/rviz_node.cpp.o: /home/henrique/colcon_ws3/src/rviz
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/message_info.hpp:
 
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__struct.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/detail/subscription_callback_type_helper.hpp:
+
 /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/topic_statistics_collector.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/math-vector.h:
@@ -1430,7 +1426,41 @@ CMakeFiles/rviz_node.dir/src/rviz_node.cpp.o: /home/henrique/colcon_ws3/src/rviz
 
 /opt/ros/jazzy/include/rcutils/rcutils/visibility_control.h:
 
+/usr/include/c++/13/cctype:
+
+/opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/constants.hpp:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__traits.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/rate.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/logger.hpp:
+
+/opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/metric_details_interface.hpp:
+
+/opt/ros/jazzy/include/rmw/rmw/events_statuses/offered_deadline_missed.h:
+
+/usr/include/c++/13/bits/stl_iterator_base_funcs.h:
+
+/opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/visibility_control.hpp:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__type_support.hpp:
+
+/usr/include/c++/13/bits/stl_multiset.h:
+
+/opt/ros/jazzy/include/rmw/rmw/init_options.h:
+
+/opt/ros/jazzy/include/rcl/rcl/guard_condition.h:
+
+/usr/include/c++/13/tr1/gamma.tcc:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__type_support.hpp:
+
 /opt/ros/jazzy/include/rcl/rcl/context.h:
+
+/usr/include/x86_64-linux-gnu/bits/fp-logb.h:
+
+/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__struct.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:
 
@@ -1438,41 +1468,35 @@ CMakeFiles/rviz_node.dir/src/rviz_node.cpp.o: /home/henrique/colcon_ws3/src/rviz
 
 /opt/ros/jazzy/include/visualization_msgs/visualization_msgs/msg/detail/marker__builder.hpp:
 
-/opt/ros/jazzy/include/rcl/rcl/timer.h:
+/opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_services_interface.hpp:
 
-/opt/ros/jazzy/include/rmw/rmw/publisher_options.h:
+/opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp:
 
-/usr/include/stdint.h:
+/opt/ros/jazzy/include/rclcpp/rclcpp/serialization.hpp:
 
-/opt/ros/jazzy/include/rcl/rcl/subscription.h:
+/usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
 
-/opt/ros/jazzy/include/rosidl_dynamic_typesupport/rosidl_dynamic_typesupport/identifier.h:
+/opt/ros/jazzy/include/rosidl_runtime_cpp/rosidl_runtime_cpp/traits.hpp:
+
+/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__type_support.hpp:
+
+/usr/include/c++/13/bits/deque.tcc:
 
 /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__traits.hpp:
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__builder.hpp:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/atomic_word.h:
-
-/usr/include/c++/13/bits/charconv.h:
-
-/opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/time.hpp:
-
-/opt/ros/jazzy/include/rcl/rcl/service_introspection.h:
-
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__struct.hpp:
-
-/opt/ros/jazzy/include/rcl/rcl/domain_id.h:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/detail/subscription_callback_type_helper.hpp:
-
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__struct.hpp:
 
 /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/received_message_age.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/is_ros_compatible_type.hpp:
 
 /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__type_support.hpp:
+
+/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__type_support.hpp:
+
+/usr/include/c++/13/iomanip:
+
+/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/pose.hpp:
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__traits.hpp:
 
@@ -1486,35 +1510,23 @@ CMakeFiles/rviz_node.dir/src/rviz_node.cpp.o: /home/henrique/colcon_ws3/src/rviz
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/executor.hpp:
 
-/usr/include/c++/13/iomanip:
-
-/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/pose.hpp:
-
 /usr/include/x86_64-linux-gnu/bits/long-double.h:
 
 /opt/ros/jazzy/include/rmw/rmw/incompatible_qos_events_statuses.h:
 
+/usr/lib/gcc/x86_64-linux-gnu/13/include/float.h:
+
 /opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/msg/rosidl_generator_c__visibility_control.h:
 
-/opt/ros/jazzy/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__traits.hpp:
-
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__builder.hpp:
-
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__builder.hpp:
-
-/usr/include/c++/13/bits/range_access.h:
-
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__type_support.hpp:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/error_constants.h:
-
-/usr/include/c++/13/bits/predefined_ops.h:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/qos.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:
-
 /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_clock_interface_traits.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
+
+/opt/ros/jazzy/include/rcl/rcl/event_callback.h:
+
+/opt/ros/jazzy/include/rmw/rmw/impl/cpp/demangle.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/executors/executor_entities_collector.hpp:
 
 /opt/ros/jazzy/include/rcl/rcl/log_level.h:
 
@@ -1524,17 +1536,23 @@ CMakeFiles/rviz_node.dir/src/rviz_node.cpp.o: /home/henrique/colcon_ws3/src/rviz
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/get_message_type_support_handle.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
-
-/opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:
-
 /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:
 
-/opt/ros/jazzy/include/rclcpp/rclcpp/logger.hpp:
+/opt/ros/jazzy/include/rcpputils/rcpputils/thread_safety_annotations.hpp:
 
-/opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/metric_details_interface.hpp:
+/opt/ros/jazzy/include/rclcpp/rclcpp/experimental/subscription_intra_process_base.hpp:
 
-/opt/ros/jazzy/include/rmw/rmw/events_statuses/offered_deadline_missed.h:
+/opt/ros/jazzy/include/rmw/rmw/impl/config.h:
+
+/usr/include/c++/13/bits/ios_base.h:
+
+/usr/include/x86_64-linux-gnu/asm/errno.h:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/duration.hpp:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__traits.hpp:
+
+/usr/include/c++/13/bits/exception_defines.h:
 
 /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__traits.hpp:
 
@@ -1562,43 +1580,9 @@ CMakeFiles/rviz_node.dir/src/rviz_node.cpp.o: /home/henrique/colcon_ws3/src/rviz
 
 /opt/ros/jazzy/include/rcl/rcl/wait.h:
 
-/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
-
-/usr/include/c++/13/bits/locale_conv.h:
-
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/get_parameters.hpp:
-
-/opt/ros/jazzy/include/rcutils/rcutils/types/array_list.h:
-
-/usr/include/c++/13/bits/requires_hosted.h:
-
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__builder.hpp:
 
-/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
-
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__traits.hpp:
-
-/opt/ros/jazzy/include/rcpputils/rcpputils/scope_exit.hpp:
-
 /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/type_hash.h:
-
-/opt/ros/jazzy/include/rcpputils/rcpputils/thread_safety_annotations.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/experimental/subscription_intra_process_base.hpp:
-
-/opt/ros/jazzy/include/rmw/rmw/impl/config.h:
-
-/usr/include/c++/13/bits/ios_base.h:
-
-/usr/include/x86_64-linux-gnu/asm/errno.h:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/duration.hpp:
-
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__traits.hpp:
-
-/opt/ros/jazzy/include/rmw/rmw/domain_id.h:
-
-/usr/include/c++/13/bits/exception_defines.h:
 
 /usr/include/c++/13/pstl/execution_defs.h:
 
@@ -1616,37 +1600,19 @@ CMakeFiles/rviz_node.dir/src/rviz_node.cpp.o: /home/henrique/colcon_ws3/src/rviz
 
 /usr/include/c++/13/bits/specfun.h:
 
-/usr/include/c++/13/bits/streambuf.tcc:
-
 /opt/ros/jazzy/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/service_type_support.hpp:
 
-/opt/ros/jazzy/include/rclcpp/rclcpp/loaned_message.hpp:
+/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
 
-/opt/ros/jazzy/include/rcl/rcl/visibility_control.h:
+/usr/include/c++/13/bits/locale_conv.h:
 
-/usr/include/c++/13/bits/algorithmfwd.h:
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/get_parameters.hpp:
 
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/get_parameter_types.hpp:
+/opt/ros/jazzy/include/rcutils/rcutils/types/array_list.h:
 
-/opt/ros/jazzy/include/rmw/rmw/qos_policy_kind.h:
+/usr/include/c++/13/bits/requires_hosted.h:
 
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/integer_range__traits.hpp:
-
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__type_support.hpp:
-
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/parameter_descriptor.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/parameter_event_handler.hpp:
-
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__builder.hpp:
-
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__traits.hpp:
-
-/usr/include/c++/13/iosfwd:
-
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__struct.hpp:
-
-/opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp:
+/usr/include/c++/13/bits/locale_facets.h:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/contexts/default_context.hpp:
 
@@ -1662,23 +1628,77 @@ CMakeFiles/rviz_node.dir/src/rviz_node.cpp.o: /home/henrique/colcon_ws3/src/rviz
 
 /opt/ros/jazzy/include/rosidl_dynamic_typesupport/rosidl_dynamic_typesupport/api/dynamic_data.h:
 
-/usr/include/x86_64-linux-gnu/bits/siginfo-consts.h:
+/opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_base_interface_traits.hpp:
 
-/opt/ros/jazzy/include/rclcpp/rclcpp/parameter_service.hpp:
+/opt/ros/jazzy/include/rclcpp/rclcpp/wait_set.hpp:
 
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/list_parameters_result.hpp:
+/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
 
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__type_support.hpp:
+/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__builder.hpp:
 
-/opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/detail/node_interfaces_helpers.hpp:
+/opt/ros/jazzy/include/rclcpp/rclcpp/subscription_content_filter_options.hpp:
 
-/opt/ros/jazzy/include/rclcpp/rclcpp/dynamic_typesupport/dynamic_message_type.hpp:
+/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform__traits.hpp:
 
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__builder.hpp:
+/usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
 
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__type_support.hpp:
+/opt/ros/jazzy/include/rclcpp/rclcpp/experimental/subscription_intra_process_buffer.hpp:
 
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__struct.hpp:
+/usr/include/c++/13/bits/stl_tree.h:
+
+/opt/ros/jazzy/include/rcl/rcl/publisher.h:
+
+/opt/ros/jazzy/include/rmw/rmw/events_statuses/liveliness_changed.h:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/network_flow_endpoint.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/experimental/ros_message_intra_process_buffer.hpp:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:
+
+/opt/ros/jazzy/include/rcl/rcl/service.h:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/experimental/buffers/intra_process_buffer.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/exceptions/exceptions.hpp:
+
+/usr/include/c++/13/system_error:
+
+/usr/include/c++/13/bits/ostream_insert.h:
+
+/opt/ros/jazzy/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__traits.hpp:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__builder.hpp:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__builder.hpp:
+
+/usr/include/c++/13/bits/range_access.h:
+
+/opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/time.hpp:
+
+/opt/ros/jazzy/include/rcl/rcl/service_introspection.h:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__struct.hpp:
+
+/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
+
+/opt/ros/jazzy/include/rcpputils/rcpputils/scope_exit.hpp:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__traits.hpp:
+
+/usr/include/stdint.h:
+
+/opt/ros/jazzy/include/rcl/rcl/subscription.h:
+
+/opt/ros/jazzy/include/rosidl_dynamic_typesupport/rosidl_dynamic_typesupport/identifier.h:
+
+/opt/ros/jazzy/include/rmw/rmw/publisher_options.h:
+
+/opt/ros/jazzy/include/rcl/rcl/timer.h:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/loaned_message.hpp:
+
+/opt/ros/jazzy/include/rcl/rcl/visibility_control.h:
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__traits.hpp:
 
@@ -1690,13 +1710,51 @@ CMakeFiles/rviz_node.dir/src/rviz_node.cpp.o: /home/henrique/colcon_ws3/src/rviz
 
 /opt/ros/jazzy/include/rosidl_dynamic_typesupport/rosidl_dynamic_typesupport/visibility_control.h:
 
-/opt/ros/jazzy/include/rclcpp/rclcpp/allocator/allocator_deleter.hpp:
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__type_support.hpp:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__struct.hpp:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/parameter_descriptor.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/parameter_event_handler.hpp:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__builder.hpp:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__traits.hpp:
+
+/usr/include/c++/13/iosfwd:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__struct.hpp:
+
+/opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/siginfo-consts.h:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/parameter_service.hpp:
 
 /opt/ros/jazzy/include/visualization_msgs/visualization_msgs/msg/detail/marker__type_support.hpp:
 
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__traits.hpp:
+/opt/ros/jazzy/include/rclcpp/rclcpp/allocator/allocator_deleter.hpp:
 
-/opt/ros/jazzy/include/rcpputils/rcpputils/shared_library.hpp:
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/list_parameters_result.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
+
+/usr/include/c++/13/locale:
+
+/usr/include/c++/13/bits/stl_map.h:
+
+/opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/srv/detail/get_type_description__struct.h:
+
+/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform__struct.hpp:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__type_support.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/detail/node_interfaces_helpers.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/dynamic_typesupport/dynamic_message_type.hpp:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__builder.hpp:
 
 /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/type_description/type_description__struct.h:
 
@@ -1748,8 +1806,6 @@ CMakeFiles/rviz_node.dir/src/rviz_node.cpp.o: /home/henrique/colcon_ws3/src/rviz
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/parameter_event.hpp:
 
-/usr/include/c++/13/bits/stl_relops.h:
-
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/parameter_type.hpp:
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp:
@@ -1772,9 +1828,15 @@ CMakeFiles/rviz_node.dir/src/rviz_node.cpp.o: /home/henrique/colcon_ws3/src/rviz
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__type_support.hpp:
 
+/opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_time_source_interface.hpp:
+
+/opt/ros/jazzy/include/tf2/tf2/LinearMath/Vector3.hpp:
+
 /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_timers_interface.hpp:
 
 /opt/ros/jazzy/include/rmw/rmw/visibility_control.h:
+
+/opt/ros/jazzy/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__traits.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:
 
@@ -1804,17 +1866,35 @@ CMakeFiles/rviz_node.dir/src/rviz_node.cpp.o: /home/henrique/colcon_ws3/src/rviz
 
 /usr/include/asm-generic/errno.h:
 
-/usr/include/c++/13/tr1/gamma.tcc:
+/usr/include/x86_64-linux-gnu/c++/13/bits/error_constants.h:
 
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__type_support.hpp:
+/usr/include/c++/13/bits/predefined_ops.h:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/qos.hpp:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/atomic_word.h:
+
+/usr/include/c++/13/bits/charconv.h:
+
+/opt/ros/jazzy/include/rcl/rcl/client.h:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:
+
+/usr/include/string.h:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/serialized_message.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/service.hpp:
+
+/opt/ros/jazzy/include/rmw/rmw/get_topic_names_and_types.h:
 
 /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/subscription.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/subscription_base.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/subscription_content_filter_options.hpp:
 
 /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp:
 
@@ -1908,10 +1988,6 @@ CMakeFiles/rviz_node.dir/src/rviz_node.cpp.o: /home/henrique/colcon_ws3/src/rviz
 
 /usr/include/c++/13/bits/std_function.h:
 
-/opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/collector.hpp:
-
-/opt/ros/jazzy/include/rcutils/rcutils/snprintf.h:
-
 /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp:
 
 /opt/ros/jazzy/include/rcutils/rcutils/time.h:
@@ -1927,6 +2003,10 @@ CMakeFiles/rviz_node.dir/src/rviz_node.cpp.o: /home/henrique/colcon_ws3/src/rviz
 /opt/ros/jazzy/include/rcutils/rcutils/types/string_array.h:
 
 /opt/ros/jazzy/include/rcutils/rcutils/types/string_map.h:
+
+/usr/include/c++/13/bits/stl_raw_storage_iter.h:
+
+/opt/ros/jazzy/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__struct.hpp:
 
 /opt/ros/jazzy/include/rcutils/rcutils/types/uint8_array.h:
 
@@ -1974,6 +2054,14 @@ CMakeFiles/rviz_node.dir/src/rviz_node.cpp.o: /home/henrique/colcon_ws3/src/rviz
 
 /opt/ros/jazzy/include/rmw/rmw/events_statuses/message_lost.h:
 
+/usr/include/c++/13/typeindex:
+
+/usr/include/c++/13/bits/stl_uninitialized.h:
+
+/opt/ros/jazzy/include/tf2_msgs/tf2_msgs/msg/tf_message.hpp:
+
+/opt/ros/jazzy/include/rmw/rmw/events_statuses/requested_deadline_missed.h:
+
 /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/any_executable.hpp:
@@ -1981,14 +2069,6 @@ CMakeFiles/rviz_node.dir/src/rviz_node.cpp.o: /home/henrique/colcon_ws3/src/rviz
 /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp:
 
 /opt/ros/jazzy/include/rmw/rmw/features.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
-
-/opt/ros/jazzy/include/rcl/rcl/event_callback.h:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/executors/executor_entities_collector.hpp:
-
-/opt/ros/jazzy/include/rmw/rmw/impl/cpp/demangle.hpp:
 
 /opt/ros/jazzy/include/rmw/rmw/init.h:
 
@@ -2002,6 +2082,12 @@ CMakeFiles/rviz_node.dir/src/rviz_node.cpp.o: /home/henrique/colcon_ws3/src/rviz
 
 /opt/ros/jazzy/include/rmw/rmw/message_sequence.h:
 
+/usr/include/c++/13/debug/debug.h:
+
+/usr/include/c++/13/bits/stl_list.h:
+
+/opt/ros/jazzy/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__traits.hpp:
+
 /opt/ros/jazzy/include/rmw/rmw/network_flow_endpoint.h:
 
 /opt/ros/jazzy/include/rcpputils/rcpputils/filesystem_helper.hpp:
@@ -2012,8 +2098,6 @@ CMakeFiles/rviz_node.dir/src/rviz_node.cpp.o: /home/henrique/colcon_ws3/src/rviz
 
 /opt/ros/jazzy/include/rmw/rmw/ret_types.h:
 
-/usr/include/c++/13/bits/stl_iterator_base_types.h:
-
 /opt/ros/jazzy/include/rclcpp/rclcpp/dynamic_typesupport/dynamic_serialization_support.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/wait_set_policies/dynamic_storage.hpp:
@@ -2023,8 +2107,6 @@ CMakeFiles/rviz_node.dir/src/rviz_node.cpp.o: /home/henrique/colcon_ws3/src/rviz
 /usr/include/c++/13/bits/basic_ios.tcc:
 
 /opt/ros/jazzy/include/rmw/rmw/subscription_content_filter_options.h:
-
-/usr/include/c++/13/bits/stl_pair.h:
 
 /usr/include/c++/13/ext/atomicity.h:
 
@@ -2122,6 +2204,12 @@ CMakeFiles/rviz_node.dir/src/rviz_node.cpp.o: /home/henrique/colcon_ws3/src/rviz
 
 /opt/ros/jazzy/include/service_msgs/service_msgs/msg/detail/service_event_info__struct.h:
 
+/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
+
+/opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:
+
+/opt/ros/jazzy/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__builder.hpp:
+
 /opt/ros/jazzy/include/service_msgs/service_msgs/msg/detail/service_event_info__struct.hpp:
 
 /opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__builder.hpp:
@@ -2141,12 +2229,6 @@ CMakeFiles/rviz_node.dir/src/rviz_node.cpp.o: /home/henrique/colcon_ws3/src/rviz
 /opt/ros/jazzy/include/rclcpp/rclcpp/generic_publisher.hpp:
 
 /usr/include/c++/13/bits/erase_if.h:
-
-/usr/include/c++/13/debug/debug.h:
-
-/opt/ros/jazzy/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__traits.hpp:
-
-/usr/include/c++/13/bits/stl_list.h:
 
 /home/henrique/colcon_ws3/src/rviz2_marker_demo/src/rviz_node.cpp:
 
@@ -2174,6 +2256,46 @@ CMakeFiles/rviz_node.dir/src/rviz_node.cpp.o: /home/henrique/colcon_ws3/src/rviz
 
 /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__traits.hpp:
 
+/usr/include/x86_64-linux-gnu/sys/cdefs.h:
+
+/opt/ros/jazzy/include/tf2/tf2/LinearMath/MinMax.hpp:
+
+/opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/msg/detail/key_value__struct.h:
+
+/usr/include/c++/13/bits/new_allocator.h:
+
+/opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/collector.hpp:
+
+/opt/ros/jazzy/include/rcutils/rcutils/snprintf.h:
+
+/opt/ros/jazzy/include/tf2/tf2/LinearMath/QuadWord.hpp:
+
+/opt/ros/jazzy/include/tf2/tf2/LinearMath/Quaternion.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/stdint-least.h:
+
+/opt/ros/jazzy/include/tf2/tf2/LinearMath/Scalar.hpp:
+
+/opt/ros/jazzy/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__struct.hpp:
+
+/opt/ros/jazzy/include/rmw/rmw/domain_id.h:
+
+/opt/ros/jazzy/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__type_support.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/executors/executor_notify_waitable.hpp:
+
+/opt/ros/jazzy/include/tf2_msgs/tf2_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
+
+/usr/include/c++/13/tr1/riemann_zeta.tcc:
+
+/opt/ros/jazzy/include/tf2/tf2/LinearMath/Quaternion.h:
+
+/opt/ros/jazzy/include/tf2_ros/tf2_ros/qos.hpp:
+
+/opt/ros/jazzy/include/tf2_ros/tf2_ros/transform_broadcaster.h:
+
+/opt/ros/jazzy/include/tf2_ros/tf2_ros/visibility_control.h:
+
 /opt/ros/jazzy/include/tracetools/tracetools/config.h:
 
 /usr/include/x86_64-linux-gnu/bits/floatn-common.h:
@@ -2190,16 +2312,6 @@ CMakeFiles/rviz_node.dir/src/rviz_node.cpp.o: /home/henrique/colcon_ws3/src/rviz
 
 /opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/msg/detail/individual_type_description__struct.h:
 
-/opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/msg/detail/key_value__struct.h:
-
-/usr/include/c++/13/bits/new_allocator.h:
-
-/usr/include/c++/13/typeindex:
-
-/opt/ros/jazzy/include/rmw/rmw/events_statuses/requested_deadline_missed.h:
-
-/usr/include/c++/13/bits/stl_uninitialized.h:
-
 /opt/ros/jazzy/include/rclcpp/rclcpp/publisher_factory.hpp:
 
 /opt/ros/jazzy/include/rcutils/rcutils/error_handling.h:
@@ -2213,14 +2325,6 @@ CMakeFiles/rviz_node.dir/src/rviz_node.cpp.o: /home/henrique/colcon_ws3/src/rviz
 /opt/ros/jazzy/include/rclcpp/rclcpp/dynamic_typesupport/dynamic_message.hpp:
 
 /opt/ros/jazzy/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__struct.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
-
-/usr/include/c++/13/locale:
-
-/opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/srv/detail/get_type_description__struct.h:
-
-/usr/include/c++/13/bits/stl_map.h:
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__traits.hpp:
 
@@ -2250,9 +2354,7 @@ CMakeFiles/rviz_node.dir/src/rviz_node.cpp.o: /home/henrique/colcon_ws3/src/rviz
 
 /usr/include/asm-generic/errno-base.h:
 
-/opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/visibility_control.hpp:
-
-/usr/include/c++/13/bits/stl_iterator_base_funcs.h:
+/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/transform_stamped.hpp:
 
 /usr/include/assert.h:
 
@@ -2273,12 +2375,6 @@ CMakeFiles/rviz_node.dir/src/rviz_node.cpp.o: /home/henrique/colcon_ws3/src/rviz
 /usr/include/c++/13/bits/atomic_base.h:
 
 /usr/include/c++/13/bits/codecvt.h:
-
-/opt/ros/jazzy/include/rcl/rcl/publisher.h:
-
-/usr/include/c++/13/bits/stl_tree.h:
-
-/usr/include/c++/13/bits/deque.tcc:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/node_impl.hpp:
 
@@ -2318,8 +2414,6 @@ CMakeFiles/rviz_node.dir/src/rviz_node.cpp.o: /home/henrique/colcon_ws3/src/rviz
 
 /usr/include/c++/13/bits/locale_classes.h:
 
-/usr/include/c++/13/bits/locale_facets.h:
-
 /usr/include/c++/13/bits/locale_facets_nonio.h:
 
 /usr/include/c++/13/bits/localefwd.h:
@@ -2331,6 +2425,8 @@ CMakeFiles/rviz_node.dir/src/rviz_node.cpp.o: /home/henrique/colcon_ws3/src/rviz
 /usr/include/c++/13/bits/memory_resource.h:
 
 /usr/include/c++/13/bits/memoryfwd.h:
+
+/opt/ros/jazzy/include/tf2/tf2/visibility_control.h:
 
 /usr/include/c++/13/bits/node_handle.h:
 
@@ -2345,21 +2441,3 @@ CMakeFiles/rviz_node.dir/src/rviz_node.cpp.o: /home/henrique/colcon_ws3/src/rviz
 /usr/include/c++/13/bits/std_mutex.h:
 
 /usr/include/c++/13/bits/stl_algo.h:
-
-/usr/include/c++/13/bits/stl_function.h:
-
-/opt/ros/jazzy/include/rmw/rmw/init_options.h:
-
-/usr/include/c++/13/bits/stl_multiset.h:
-
-/usr/include/c++/13/bits/stl_numeric.h:
-
-/opt/ros/jazzy/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__struct.hpp:
-
-/usr/include/c++/13/bits/stl_raw_storage_iter.h:
-
-/usr/include/x86_64-linux-gnu/bits/getopt_core.h:
-
-/usr/include/c++/13/bits/stl_vector.h:
-
-/usr/include/c++/13/bits/stream_iterator.h:

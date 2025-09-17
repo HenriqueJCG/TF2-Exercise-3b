@@ -1,0 +1,34 @@
+[0.126s] Invoking command in '/home/henrique/colcon_ws3/build/urdf_tutorial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/henrique/ros2_ws/install/temperature_system:/home/henrique/ros2_ws/install/temperature_monitor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/henrique/colcon_ws3/build/urdf_tutorial -- -j2 -l2
+[1.206s] Invoked command in '/home/henrique/colcon_ws3/build/urdf_tutorial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/henrique/ros2_ws/install/temperature_system:/home/henrique/ros2_ws/install/temperature_monitor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/henrique/colcon_ws3/build/urdf_tutorial -- -j2 -l2
+[1.258s] Invoking command in '/home/henrique/colcon_ws3/build/urdf_tutorial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/henrique/ros2_ws/install/temperature_system:/home/henrique/ros2_ws/install/temperature_monitor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/henrique/colcon_ws3/build/urdf_tutorial
+[1.316s] -- Install configuration: ""
+[1.340s] -- Up-to-date: /home/henrique/colcon_ws3/install/urdf_tutorial/share/urdf_tutorial/launch
+[1.344s] -- Up-to-date: /home/henrique/colcon_ws3/install/urdf_tutorial/share/urdf_tutorial/launch/ur_visualization.launch.py
+[1.346s] -- Up-to-date: /home/henrique/colcon_ws3/install/urdf_tutorial/share/urdf_tutorial/launch/pantilt_visualization.launch.py
+[1.346s] -- Up-to-date: /home/henrique/colcon_ws3/install/urdf_tutorial/share/urdf_tutorial/launch/exercise_3b.launch.py
+[1.348s] -- Up-to-date: /home/henrique/colcon_ws3/install/urdf_tutorial/share/urdf_tutorial/config
+[1.350s] -- Up-to-date: /home/henrique/colcon_ws3/install/urdf_tutorial/share/urdf_tutorial/config/pawn_marker.yaml
+[1.351s] -- Up-to-date: /home/henrique/colcon_ws3/install/urdf_tutorial/share/urdf_tutorial/urdf
+[1.351s] -- Up-to-date: /home/henrique/colcon_ws3/install/urdf_tutorial/share/urdf_tutorial/urdf/ur.urdf.xacro
+[1.351s] -- Up-to-date: /home/henrique/colcon_ws3/install/urdf_tutorial/share/urdf_tutorial/urdf/pan_tilt.xacro
+[1.351s] -- Up-to-date: /home/henrique/colcon_ws3/install/urdf_tutorial/share/urdf_tutorial/urdf/pan_tilt.urdf
+[1.354s] -- Up-to-date: /home/henrique/colcon_ws3/install/urdf_tutorial/share/urdf_tutorial/rviz
+[1.355s] -- Up-to-date: /home/henrique/colcon_ws3/install/urdf_tutorial/share/urdf_tutorial/rviz/display_urdf.rviz
+[1.355s] -- Up-to-date: /home/henrique/colcon_ws3/install/urdf_tutorial/share/urdf_tutorial/rviz/ur_visualization.rviz
+[1.355s] -- Up-to-date: /home/henrique/colcon_ws3/install/urdf_tutorial/share/ament_index/resource_index/package_run_dependencies/urdf_tutorial
+[1.356s] -- Up-to-date: /home/henrique/colcon_ws3/install/urdf_tutorial/share/ament_index/resource_index/parent_prefix_path/urdf_tutorial
+[1.356s] -- Up-to-date: /home/henrique/colcon_ws3/install/urdf_tutorial/share/urdf_tutorial/environment/ament_prefix_path.sh
+[1.356s] -- Up-to-date: /home/henrique/colcon_ws3/install/urdf_tutorial/share/urdf_tutorial/environment/ament_prefix_path.dsv
+[1.357s] -- Up-to-date: /home/henrique/colcon_ws3/install/urdf_tutorial/share/urdf_tutorial/environment/path.sh
+[1.357s] -- Up-to-date: /home/henrique/colcon_ws3/install/urdf_tutorial/share/urdf_tutorial/environment/path.dsv
+[1.357s] -- Up-to-date: /home/henrique/colcon_ws3/install/urdf_tutorial/share/urdf_tutorial/local_setup.bash
+[1.357s] -- Up-to-date: /home/henrique/colcon_ws3/install/urdf_tutorial/share/urdf_tutorial/local_setup.sh
+[1.359s] -- Up-to-date: /home/henrique/colcon_ws3/install/urdf_tutorial/share/urdf_tutorial/local_setup.zsh
+[1.359s] -- Up-to-date: /home/henrique/colcon_ws3/install/urdf_tutorial/share/urdf_tutorial/local_setup.dsv
+[1.359s] -- Installing: /home/henrique/colcon_ws3/install/urdf_tutorial/share/urdf_tutorial/package.dsv
+[1.360s] -- Up-to-date: /home/henrique/colcon_ws3/install/urdf_tutorial/share/ament_index/resource_index/packages/urdf_tutorial
+[1.360s] -- Up-to-date: /home/henrique/colcon_ws3/install/urdf_tutorial/share/urdf_tutorial/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.361s] -- Up-to-date: /home/henrique/colcon_ws3/install/urdf_tutorial/share/urdf_tutorial/cmake/urdf_tutorialConfig.cmake
+[1.362s] -- Up-to-date: /home/henrique/colcon_ws3/install/urdf_tutorial/share/urdf_tutorial/cmake/urdf_tutorialConfig-version.cmake
+[1.362s] -- Up-to-date: /home/henrique/colcon_ws3/install/urdf_tutorial/share/urdf_tutorial/package.xml
+[1.369s] Invoked command in '/home/henrique/colcon_ws3/build/urdf_tutorial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/henrique/ros2_ws/install/temperature_system:/home/henrique/ros2_ws/install/temperature_monitor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/henrique/colcon_ws3/build/urdf_tutorial

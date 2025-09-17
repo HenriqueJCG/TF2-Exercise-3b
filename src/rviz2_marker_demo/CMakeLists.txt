@@ -6,12 +6,16 @@ find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(visualization_msgs REQUIRED)
 find_package(geometry_msgs REQUIRED)
+find_package(tf2 REQUIRED)
+find_package(tf2_ros REQUIRED)
 
 set(dependencies
     rclcpp
     std_msgs
     visualization_msgs
     geometry_msgs 
+    tf2
+    tf2_ros
 )
 
 add_executable(rviz_node src/rviz_node.cpp)

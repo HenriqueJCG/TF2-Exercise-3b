@@ -1,0 +1,30 @@
+[0.408s] Invoking command in '/home/henrique/colcon_ws3/build/learning_tf2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/henrique/ros2_ws/install/temperature_system:/home/henrique/ros2_ws/install/temperature_monitor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/henrique/colcon_ws3/build/learning_tf2 -- -j2 -l2
+[3.511s] [ 50%] Built target turtle_tf2_broadcaster
+[3.562s] [100%] Built target turtle_tf2_listener_simple
+[3.755s] Invoked command in '/home/henrique/colcon_ws3/build/learning_tf2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/henrique/ros2_ws/install/temperature_system:/home/henrique/ros2_ws/install/temperature_monitor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/henrique/colcon_ws3/build/learning_tf2 -- -j2 -l2
+[4.005s] Invoking command in '/home/henrique/colcon_ws3/build/learning_tf2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/henrique/ros2_ws/install/temperature_system:/home/henrique/ros2_ws/install/temperature_monitor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/henrique/colcon_ws3/build/learning_tf2
+[4.131s] -- Install configuration: ""
+[4.193s] -- Up-to-date: /home/henrique/colcon_ws3/install/learning_tf2/lib/learning_tf2/turtle_tf2_broadcaster
+[4.236s] -- Up-to-date: /home/henrique/colcon_ws3/install/learning_tf2/lib/learning_tf2/turtle_tf2_listener_simple
+[4.242s] -- Up-to-date: /home/henrique/colcon_ws3/install/learning_tf2/share/learning_tf2/launch
+[4.259s] -- Up-to-date: /home/henrique/colcon_ws3/install/learning_tf2/share/learning_tf2/launch/tf2_broadcaster.launch.py
+[4.260s] -- Up-to-date: /home/henrique/colcon_ws3/install/learning_tf2/share/learning_tf2/launch/turtle_tf2_demo2.launch.py
+[4.268s] -- Up-to-date: /home/henrique/colcon_ws3/install/learning_tf2/share/learning_tf2/rviz
+[4.277s] -- Up-to-date: /home/henrique/colcon_ws3/install/learning_tf2/share/learning_tf2/rviz/turtlesim_vis.rviz
+[4.282s] -- Up-to-date: /home/henrique/colcon_ws3/install/learning_tf2/share/ament_index/resource_index/package_run_dependencies/learning_tf2
+[4.289s] -- Up-to-date: /home/henrique/colcon_ws3/install/learning_tf2/share/ament_index/resource_index/parent_prefix_path/learning_tf2
+[4.289s] -- Up-to-date: /home/henrique/colcon_ws3/install/learning_tf2/share/learning_tf2/environment/ament_prefix_path.sh
+[4.292s] -- Up-to-date: /home/henrique/colcon_ws3/install/learning_tf2/share/learning_tf2/environment/ament_prefix_path.dsv
+[4.292s] -- Up-to-date: /home/henrique/colcon_ws3/install/learning_tf2/share/learning_tf2/environment/path.sh
+[4.296s] -- Up-to-date: /home/henrique/colcon_ws3/install/learning_tf2/share/learning_tf2/environment/path.dsv
+[4.297s] -- Up-to-date: /home/henrique/colcon_ws3/install/learning_tf2/share/learning_tf2/local_setup.bash
+[4.298s] -- Up-to-date: /home/henrique/colcon_ws3/install/learning_tf2/share/learning_tf2/local_setup.sh
+[4.302s] -- Up-to-date: /home/henrique/colcon_ws3/install/learning_tf2/share/learning_tf2/local_setup.zsh
+[4.307s] -- Up-to-date: /home/henrique/colcon_ws3/install/learning_tf2/share/learning_tf2/local_setup.dsv
+[4.307s] -- Installing: /home/henrique/colcon_ws3/install/learning_tf2/share/learning_tf2/package.dsv
+[4.321s] -- Up-to-date: /home/henrique/colcon_ws3/install/learning_tf2/share/ament_index/resource_index/packages/learning_tf2
+[4.330s] -- Up-to-date: /home/henrique/colcon_ws3/install/learning_tf2/share/learning_tf2/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.330s] -- Up-to-date: /home/henrique/colcon_ws3/install/learning_tf2/share/learning_tf2/cmake/learning_tf2Config.cmake
+[4.330s] -- Up-to-date: /home/henrique/colcon_ws3/install/learning_tf2/share/learning_tf2/cmake/learning_tf2Config-version.cmake
+[4.332s] -- Up-to-date: /home/henrique/colcon_ws3/install/learning_tf2/share/learning_tf2/package.xml
+[4.365s] Invoked command in '/home/henrique/colcon_ws3/build/learning_tf2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/henrique/ros2_ws/install/temperature_system:/home/henrique/ros2_ws/install/temperature_monitor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/henrique/colcon_ws3/build/learning_tf2

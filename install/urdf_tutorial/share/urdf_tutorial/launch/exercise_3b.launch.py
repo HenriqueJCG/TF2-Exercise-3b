@@ -73,6 +73,7 @@ def launch_setup(context, *args, **kwargs):
         [FindPackageShare("rviz2_marker_demo"), "rviz", "rviz2_marker_demo.rviz"]
     )
 
+    #2)
     rviz2_marker_demo = Node(
         package="rviz2_marker_demo",
         executable="rviz_node",
@@ -96,13 +97,21 @@ def launch_setup(context, *args, **kwargs):
         name="world_broadcaster",
         arguments=["0.3", "0", "0", "0", "0", "0", "1", "world", "assembly_frame"],
     )
-
-
+    
+    #1) Static transform between the robot base and the world at 0.3 0.0 0.0
     ur3_base_broadcaster = Node(
-        package='tf2_ros',
-        executable='static_transform_publisher',
-        name='ur3_base_broadcaster',
-        arguments=['0.3', '0', '0', '0', '0', '0', 'world', 'base_link']
+        package="tf2_ros",
+        executable="static_transform_publisher",
+        name="ur3_base_broadcaster",
+        arguments=["0.3", "0", "0", "0", "0", "0", "world", "base_link"]
+    )
+
+    #3) Add node that broadscasts a static transform grasp_11
+    grasp_11_broadcaster = Node(
+        package="tf2_ros",
+        executable="static_transform_publisher",
+        name="grasp_11_broadcaster",
+        arguments=["0", "0", "0.15", "0", "0", "3.1416", "tf_11", "grasp_11"]
     )
 
 
@@ -113,6 +122,7 @@ def launch_setup(context, *args, **kwargs):
         rviz_node,
         world_broadcaster,
         ur3_base_broadcaster,
+        grasp_11_broadcaster,
         log_robot_description
     ]
 
