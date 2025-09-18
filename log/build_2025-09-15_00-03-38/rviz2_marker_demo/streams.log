@@ -1,5 +1,0 @@
-[0.055s] Invoking command in '/home/henrique/colcon_ws3/build/rviz2_marker_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/henrique/ros2_ws/install/temperature_system:/home/henrique/ros2_ws/install/temperature_monitor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/henrique/colcon_ws3/build/rviz2_marker_demo -- -j2 -l2
-[0.206s] [0mCMake Error: The source directory "/home/henrique/colcon_ws3/src/rviz2_marker_demo" does not exist.
-[0.207s] Specify --help for usage, or press the help button on the CMake GUI.[0m
-[0.213s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
-[0.219s] Invoked command in '/home/henrique/colcon_ws3/build/rviz2_marker_demo' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/henrique/ros2_ws/install/temperature_system:/home/henrique/ros2_ws/install/temperature_monitor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/henrique/colcon_ws3/build/rviz2_marker_demo -- -j2 -l2

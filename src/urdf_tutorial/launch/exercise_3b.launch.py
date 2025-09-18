@@ -53,12 +53,12 @@ def launch_setup(context, *args, **kwargs):
         parameters=[{"use_sim_time": False}, robot_description],
     )
 
-    joint_state_publisher_node = Node(
-        package='joint_state_publisher',
-        executable='joint_state_publisher',
-        name='joint_state_publisher',
-        output='screen',
-        parameters=[{'use_sim_time': False}]
+    joint_state_publisher_gui = Node(
+        package="joint_state_publisher_gui",
+        executable="joint_state_publisher_gui",
+        name="joint_state_publisher_gui",
+        output="screen",
+        on_exit=Shutdown(), #???
     )
 
 
@@ -118,7 +118,7 @@ def launch_setup(context, *args, **kwargs):
 
     nodes_to_start = [
         robot_state_publisher_node,
-        joint_state_publisher_node,
+        joint_state_publisher_gui,
         rviz2_marker_demo,
         rviz_node,
         world_broadcaster,

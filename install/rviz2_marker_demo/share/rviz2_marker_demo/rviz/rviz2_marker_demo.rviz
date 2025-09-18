@@ -120,7 +120,7 @@ Visualization Manager:
         upper_arm_link:
           Value: false
         world:
-          Value: false
+          Value: true
         wrist_1_link:
           Value: false
         wrist_2_link:
@@ -317,18 +317,18 @@ Visualization Manager:
         Swap Stereo Eyes: false
         Value: false
       Focal Point:
-        X: 0.3717747926712036
-        Y: -0.1372152864933014
-        Z: -0.26203352212905884
+        X: 0.4492318630218506
+        Y: -0.10050412267446518
+        Z: -0.29977884888648987
       Focal Shape Fixed Size: true
       Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.6153982281684875
+      Pitch: 0.6853980422019958
       Target Frame: <Fixed Frame>
       Value: Orbit (rviz)
-      Yaw: 0.8053974509239197
+      Yaw: 0.8903987407684326
     Saved: ~
 Window Geometry:
   Displays:
@@ -346,5 +346,5 @@ Window Geometry:
   Views:
     collapsed: false
   Width: 1200
-  X: 74
-  Y: 60
+  X: 494
+  Y: 96

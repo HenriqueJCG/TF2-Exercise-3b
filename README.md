@@ -1,6 +1,8 @@
 # TF2 Exercise 3b
 Repository for [exercise 3b](https://sir.upc.edu/projects/ros2tutorials/3-tools/index.html#exercise-3b) related to TF2 library, using Ubuntu 24.04, ROS2 Jazzy LTS and Gazebo Harmonic.
 
+First source the setup file: `cd ~/colcon_ws3` `colcon build` `source install/setup.bash`
+
 To run use `ros2 launch urdf_tutorial exercise_3b.launch.py`
 
 ---

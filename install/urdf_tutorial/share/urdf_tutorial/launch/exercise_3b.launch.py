@@ -53,12 +53,12 @@ def launch_setup(context, *args, **kwargs):
         parameters=[{"use_sim_time": False}, robot_description],
     )
 
-    joint_state_publisher_node = Node(
-        package='joint_state_publisher',
-        executable='joint_state_publisher',
-        name='joint_state_publisher',
-        output='screen',
-        parameters=[{'use_sim_time': False}]
+    joint_state_publisher_gui = Node(
+        package="joint_state_publisher_gui",
+        executable="joint_state_publisher_gui",
+        name="joint_state_publisher_gui",
+        output="screen",
+        on_exit=Shutdown(), #???
     )
 
 
@@ -112,12 +112,13 @@ def launch_setup(context, *args, **kwargs):
         executable="static_transform_publisher",
         name="grasp_11_broadcaster",
         arguments=["0", "0", "0.15", "0", "0", "3.1416", "tf_11", "grasp_11"]
+        # Yaw = 0, Pitch = 0, Roll = 3.1416 (180 degrees)
     )
 
 
     nodes_to_start = [
         robot_state_publisher_node,
-        joint_state_publisher_node,
+        joint_state_publisher_gui,
         rviz2_marker_demo,
         rviz_node,
         world_broadcaster,

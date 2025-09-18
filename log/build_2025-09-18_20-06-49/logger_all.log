@@ -1,0 +1,426 @@
+[0.333s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.333s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x71f9faea06e0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x71f9fae2e180>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x71f9fae2e180>>, mixin_verb=('build',))
+[0.527s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.527s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.527s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.527s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.527s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.527s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.527s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/henrique/colcon_ws3'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(src/all_introduction_to_ros2_packages) by extensions ['ignore', 'ignore_ament_install']
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(src/all_introduction_to_ros2_packages) by extension 'ignore'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(src/all_introduction_to_ros2_packages) by extension 'ignore_ament_install'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/all_introduction_to_ros2_packages) by extensions ['colcon_pkg']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/all_introduction_to_ros2_packages) by extension 'colcon_pkg'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/all_introduction_to_ros2_packages) by extensions ['colcon_meta']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/all_introduction_to_ros2_packages) by extension 'colcon_meta'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/all_introduction_to_ros2_packages) by extensions ['ros']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/all_introduction_to_ros2_packages) by extension 'ros'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/all_introduction_to_ros2_packages) by extensions ['cmake', 'python']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/all_introduction_to_ros2_packages) by extension 'cmake'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/all_introduction_to_ros2_packages) by extension 'python'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/all_introduction_to_ros2_packages) by extensions ['python_setup_py']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/all_introduction_to_ros2_packages) by extension 'python_setup_py'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/all_introduction_to_ros2_packages/learning_tf2) by extensions ['ignore', 'ignore_ament_install']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/all_introduction_to_ros2_packages/learning_tf2) by extension 'ignore'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/all_introduction_to_ros2_packages/learning_tf2) by extension 'ignore_ament_install'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/all_introduction_to_ros2_packages/learning_tf2) by extensions ['colcon_pkg']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/all_introduction_to_ros2_packages/learning_tf2) by extension 'colcon_pkg'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/all_introduction_to_ros2_packages/learning_tf2) by extensions ['colcon_meta']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/all_introduction_to_ros2_packages/learning_tf2) by extension 'colcon_meta'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/all_introduction_to_ros2_packages/learning_tf2) by extensions ['ros']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/all_introduction_to_ros2_packages/learning_tf2) by extension 'ros'
+[0.621s] DEBUG:colcon.colcon_core.package_identification:Package 'src/all_introduction_to_ros2_packages/learning_tf2' with type 'ros.ament_cmake' and name 'learning_tf2'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(src/all_introduction_to_ros2_packages/pubsub_custom_param) by extensions ['ignore', 'ignore_ament_install']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(src/all_introduction_to_ros2_packages/pubsub_custom_param) by extension 'ignore'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(src/all_introduction_to_ros2_packages/pubsub_custom_param) by extension 'ignore_ament_install'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(src/all_introduction_to_ros2_packages/pubsub_custom_param) by extensions ['colcon_pkg']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(src/all_introduction_to_ros2_packages/pubsub_custom_param) by extension 'colcon_pkg'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(src/all_introduction_to_ros2_packages/pubsub_custom_param) by extensions ['colcon_meta']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(src/all_introduction_to_ros2_packages/pubsub_custom_param) by extension 'colcon_meta'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(src/all_introduction_to_ros2_packages/pubsub_custom_param) by extensions ['ros']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(src/all_introduction_to_ros2_packages/pubsub_custom_param) by extension 'ros'
+[0.624s] DEBUG:colcon.colcon_core.package_identification:Package 'src/all_introduction_to_ros2_packages/pubsub_custom_param' with type 'ros.ament_cmake' and name 'pubsub_custom_param'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extension 'ignore'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extension 'ignore_ament_install'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extensions ['colcon_pkg']
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extension 'colcon_pkg'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extensions ['colcon_meta']
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extension 'colcon_meta'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extensions ['ros']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extension 'ros'
+[0.628s] DEBUG:colcon.colcon_core.package_identification:Package 'src/custom_interfaces' with type 'ros.ament_cmake' and name 'custom_interfaces'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz2_marker_demo) by extensions ['ignore', 'ignore_ament_install']
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz2_marker_demo) by extension 'ignore'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz2_marker_demo) by extension 'ignore_ament_install'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz2_marker_demo) by extensions ['colcon_pkg']
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz2_marker_demo) by extension 'colcon_pkg'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz2_marker_demo) by extensions ['colcon_meta']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz2_marker_demo) by extension 'colcon_meta'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz2_marker_demo) by extensions ['ros']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz2_marker_demo) by extension 'ros'
+[0.631s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rviz2_marker_demo' with type 'ros.ament_cmake' and name 'rviz2_marker_demo'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_tutorial) by extensions ['ignore', 'ignore_ament_install']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_tutorial) by extension 'ignore'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_tutorial) by extension 'ignore_ament_install'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_tutorial) by extensions ['colcon_pkg']
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_tutorial) by extension 'colcon_pkg'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_tutorial) by extensions ['colcon_meta']
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_tutorial) by extension 'colcon_meta'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_tutorial) by extensions ['ros']
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_tutorial) by extension 'ros'
+[0.634s] DEBUG:colcon.colcon_core.package_identification:Package 'src/urdf_tutorial' with type 'ros.ament_cmake' and name 'urdf_tutorial'
+[0.634s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.634s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.634s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.634s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.634s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.679s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.679s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.700s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/henrique/colcon_ws3/install
+[0.701s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/henrique/ros2_ws/install
+[0.704s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 311 installed packages in /opt/ros/jazzy
+[0.706s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.787s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.787s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.787s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.787s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.787s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.787s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.787s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.787s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.787s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.788s] DEBUG:colcon.colcon_core.verb:Building package 'custom_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/henrique/colcon_ws3/build/custom_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/henrique/colcon_ws3/install/custom_interfaces', 'merge_install': False, 'path': '/home/henrique/colcon_ws3/src/custom_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.788s] Level 5:colcon.colcon_core.verb:set package 'learning_tf2' build argument 'cmake_args' from command line to 'None'
+[0.788s] Level 5:colcon.colcon_core.verb:set package 'learning_tf2' build argument 'cmake_target' from command line to 'None'
+[0.788s] Level 5:colcon.colcon_core.verb:set package 'learning_tf2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.788s] Level 5:colcon.colcon_core.verb:set package 'learning_tf2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.788s] Level 5:colcon.colcon_core.verb:set package 'learning_tf2' build argument 'cmake_clean_first' from command line to 'False'
+[0.788s] Level 5:colcon.colcon_core.verb:set package 'learning_tf2' build argument 'cmake_force_configure' from command line to 'False'
+[0.788s] Level 5:colcon.colcon_core.verb:set package 'learning_tf2' build argument 'ament_cmake_args' from command line to 'None'
+[0.788s] Level 5:colcon.colcon_core.verb:set package 'learning_tf2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.788s] Level 5:colcon.colcon_core.verb:set package 'learning_tf2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.788s] DEBUG:colcon.colcon_core.verb:Building package 'learning_tf2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/henrique/colcon_ws3/build/learning_tf2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/henrique/colcon_ws3/install/learning_tf2', 'merge_install': False, 'path': '/home/henrique/colcon_ws3/src/all_introduction_to_ros2_packages/learning_tf2', 'symlink_install': False, 'test_result_base': None}
+[0.789s] Level 5:colcon.colcon_core.verb:set package 'rviz2_marker_demo' build argument 'cmake_args' from command line to 'None'
+[0.789s] Level 5:colcon.colcon_core.verb:set package 'rviz2_marker_demo' build argument 'cmake_target' from command line to 'None'
+[0.789s] Level 5:colcon.colcon_core.verb:set package 'rviz2_marker_demo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.789s] Level 5:colcon.colcon_core.verb:set package 'rviz2_marker_demo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.789s] Level 5:colcon.colcon_core.verb:set package 'rviz2_marker_demo' build argument 'cmake_clean_first' from command line to 'False'
+[0.789s] Level 5:colcon.colcon_core.verb:set package 'rviz2_marker_demo' build argument 'cmake_force_configure' from command line to 'False'
+[0.789s] Level 5:colcon.colcon_core.verb:set package 'rviz2_marker_demo' build argument 'ament_cmake_args' from command line to 'None'
+[0.789s] Level 5:colcon.colcon_core.verb:set package 'rviz2_marker_demo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.789s] Level 5:colcon.colcon_core.verb:set package 'rviz2_marker_demo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.789s] DEBUG:colcon.colcon_core.verb:Building package 'rviz2_marker_demo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/henrique/colcon_ws3/build/rviz2_marker_demo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/henrique/colcon_ws3/install/rviz2_marker_demo', 'merge_install': False, 'path': '/home/henrique/colcon_ws3/src/rviz2_marker_demo', 'symlink_install': False, 'test_result_base': None}
+[0.789s] Level 5:colcon.colcon_core.verb:set package 'urdf_tutorial' build argument 'cmake_args' from command line to 'None'
+[0.789s] Level 5:colcon.colcon_core.verb:set package 'urdf_tutorial' build argument 'cmake_target' from command line to 'None'
+[0.789s] Level 5:colcon.colcon_core.verb:set package 'urdf_tutorial' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.789s] Level 5:colcon.colcon_core.verb:set package 'urdf_tutorial' build argument 'cmake_clean_cache' from command line to 'False'
+[0.789s] Level 5:colcon.colcon_core.verb:set package 'urdf_tutorial' build argument 'cmake_clean_first' from command line to 'False'
+[0.789s] Level 5:colcon.colcon_core.verb:set package 'urdf_tutorial' build argument 'cmake_force_configure' from command line to 'False'
+[0.789s] Level 5:colcon.colcon_core.verb:set package 'urdf_tutorial' build argument 'ament_cmake_args' from command line to 'None'
+[0.789s] Level 5:colcon.colcon_core.verb:set package 'urdf_tutorial' build argument 'catkin_cmake_args' from command line to 'None'
+[0.789s] Level 5:colcon.colcon_core.verb:set package 'urdf_tutorial' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.789s] DEBUG:colcon.colcon_core.verb:Building package 'urdf_tutorial' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/henrique/colcon_ws3/build/urdf_tutorial', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/henrique/colcon_ws3/install/urdf_tutorial', 'merge_install': False, 'path': '/home/henrique/colcon_ws3/src/urdf_tutorial', 'symlink_install': False, 'test_result_base': None}
+[0.789s] Level 5:colcon.colcon_core.verb:set package 'pubsub_custom_param' build argument 'cmake_args' from command line to 'None'
+[0.789s] Level 5:colcon.colcon_core.verb:set package 'pubsub_custom_param' build argument 'cmake_target' from command line to 'None'
+[0.789s] Level 5:colcon.colcon_core.verb:set package 'pubsub_custom_param' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.789s] Level 5:colcon.colcon_core.verb:set package 'pubsub_custom_param' build argument 'cmake_clean_cache' from command line to 'False'
+[0.789s] Level 5:colcon.colcon_core.verb:set package 'pubsub_custom_param' build argument 'cmake_clean_first' from command line to 'False'
+[0.789s] Level 5:colcon.colcon_core.verb:set package 'pubsub_custom_param' build argument 'cmake_force_configure' from command line to 'False'
+[0.790s] Level 5:colcon.colcon_core.verb:set package 'pubsub_custom_param' build argument 'ament_cmake_args' from command line to 'None'
+[0.790s] Level 5:colcon.colcon_core.verb:set package 'pubsub_custom_param' build argument 'catkin_cmake_args' from command line to 'None'
+[0.790s] Level 5:colcon.colcon_core.verb:set package 'pubsub_custom_param' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.790s] DEBUG:colcon.colcon_core.verb:Building package 'pubsub_custom_param' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/henrique/colcon_ws3/build/pubsub_custom_param', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/henrique/colcon_ws3/install/pubsub_custom_param', 'merge_install': False, 'path': '/home/henrique/colcon_ws3/src/all_introduction_to_ros2_packages/pubsub_custom_param', 'symlink_install': False, 'test_result_base': None}
+[0.790s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.791s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.791s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/henrique/colcon_ws3/src/custom_interfaces' with build type 'ament_cmake'
+[0.791s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/henrique/colcon_ws3/src/custom_interfaces'
+[0.804s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.804s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.804s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.813s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/henrique/colcon_ws3/src/all_introduction_to_ros2_packages/learning_tf2' with build type 'ament_cmake'
+[0.813s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/henrique/colcon_ws3/src/all_introduction_to_ros2_packages/learning_tf2'
+[0.814s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.814s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.827s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/henrique/colcon_ws3/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/henrique/ros2_ws/install/temperature_system:/home/henrique/ros2_ws/install/temperature_monitor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/henrique/colcon_ws3/build/custom_interfaces -- -j2 -l2
+[0.839s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/henrique/colcon_ws3/build/learning_tf2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/henrique/ros2_ws/install/temperature_system:/home/henrique/ros2_ws/install/temperature_monitor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/henrique/colcon_ws3/build/learning_tf2 -- -j2 -l2
+[1.640s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/henrique/colcon_ws3/build/learning_tf2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/henrique/ros2_ws/install/temperature_system:/home/henrique/ros2_ws/install/temperature_monitor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/henrique/colcon_ws3/build/learning_tf2 -- -j2 -l2
+[1.693s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/henrique/colcon_ws3/build/learning_tf2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/henrique/ros2_ws/install/temperature_system:/home/henrique/ros2_ws/install/temperature_monitor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/henrique/colcon_ws3/build/learning_tf2
+[1.766s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(learning_tf2)
+[1.782s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/henrique/colcon_ws3/build/learning_tf2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/henrique/ros2_ws/install/temperature_system:/home/henrique/ros2_ws/install/temperature_monitor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/henrique/colcon_ws3/build/learning_tf2
+[1.828s] Level 1:colcon.colcon_core.environment:checking '/home/henrique/colcon_ws3/install/learning_tf2' for CMake module files
+[1.843s] Level 1:colcon.colcon_core.environment:checking '/home/henrique/colcon_ws3/install/learning_tf2' for CMake config files
+[1.844s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_tf2', 'cmake_prefix_path')
+[1.847s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/henrique/colcon_ws3/install/learning_tf2/share/learning_tf2/hook/cmake_prefix_path.ps1'
+[1.852s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/henrique/colcon_ws3/install/learning_tf2/share/learning_tf2/hook/cmake_prefix_path.dsv'
+[1.853s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/henrique/colcon_ws3/install/learning_tf2/share/learning_tf2/hook/cmake_prefix_path.sh'
+[1.856s] Level 1:colcon.colcon_core.environment:checking '/home/henrique/colcon_ws3/install/learning_tf2/lib'
+[1.857s] Level 1:colcon.colcon_core.environment:checking '/home/henrique/colcon_ws3/install/learning_tf2/bin'
+[1.857s] Level 1:colcon.colcon_core.environment:checking '/home/henrique/colcon_ws3/install/learning_tf2/lib/pkgconfig/learning_tf2.pc'
+[1.858s] Level 1:colcon.colcon_core.environment:checking '/home/henrique/colcon_ws3/install/learning_tf2/lib/python3.12/site-packages'
+[1.859s] Level 1:colcon.colcon_core.environment:checking '/home/henrique/colcon_ws3/install/learning_tf2/bin'
+[1.861s] INFO:colcon.colcon_core.shell:Creating package script '/home/henrique/colcon_ws3/install/learning_tf2/share/learning_tf2/package.ps1'
+[1.864s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/henrique/colcon_ws3/install/learning_tf2/share/learning_tf2/package.dsv'
+[1.866s] INFO:colcon.colcon_core.shell:Creating package script '/home/henrique/colcon_ws3/install/learning_tf2/share/learning_tf2/package.sh'
+[1.868s] INFO:colcon.colcon_core.shell:Creating package script '/home/henrique/colcon_ws3/install/learning_tf2/share/learning_tf2/package.bash'
+[1.871s] INFO:colcon.colcon_core.shell:Creating package script '/home/henrique/colcon_ws3/install/learning_tf2/share/learning_tf2/package.zsh'
+[1.875s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/henrique/colcon_ws3/install/learning_tf2/share/colcon-core/packages/learning_tf2)
+[1.878s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(learning_tf2)
+[1.880s] Level 1:colcon.colcon_core.environment:checking '/home/henrique/colcon_ws3/install/learning_tf2' for CMake module files
+[1.881s] Level 1:colcon.colcon_core.environment:checking '/home/henrique/colcon_ws3/install/learning_tf2' for CMake config files
+[1.882s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_tf2', 'cmake_prefix_path')
+[1.882s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/henrique/colcon_ws3/install/learning_tf2/share/learning_tf2/hook/cmake_prefix_path.ps1'
+[1.883s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/henrique/colcon_ws3/install/learning_tf2/share/learning_tf2/hook/cmake_prefix_path.dsv'
+[1.885s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/henrique/colcon_ws3/install/learning_tf2/share/learning_tf2/hook/cmake_prefix_path.sh'
+[1.891s] Level 1:colcon.colcon_core.environment:checking '/home/henrique/colcon_ws3/install/learning_tf2/lib'
+[1.891s] Level 1:colcon.colcon_core.environment:checking '/home/henrique/colcon_ws3/install/learning_tf2/bin'
+[1.891s] Level 1:colcon.colcon_core.environment:checking '/home/henrique/colcon_ws3/install/learning_tf2/lib/pkgconfig/learning_tf2.pc'
+[1.892s] Level 1:colcon.colcon_core.environment:checking '/home/henrique/colcon_ws3/install/learning_tf2/lib/python3.12/site-packages'
+[1.892s] Level 1:colcon.colcon_core.environment:checking '/home/henrique/colcon_ws3/install/learning_tf2/bin'
+[1.894s] INFO:colcon.colcon_core.shell:Creating package script '/home/henrique/colcon_ws3/install/learning_tf2/share/learning_tf2/package.ps1'
+[1.895s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/henrique/colcon_ws3/install/learning_tf2/share/learning_tf2/package.dsv'
+[1.896s] INFO:colcon.colcon_core.shell:Creating package script '/home/henrique/colcon_ws3/install/learning_tf2/share/learning_tf2/package.sh'
+[1.898s] INFO:colcon.colcon_core.shell:Creating package script '/home/henrique/colcon_ws3/install/learning_tf2/share/learning_tf2/package.bash'
+[1.901s] INFO:colcon.colcon_core.shell:Creating package script '/home/henrique/colcon_ws3/install/learning_tf2/share/learning_tf2/package.zsh'
+[1.903s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/henrique/colcon_ws3/install/learning_tf2/share/colcon-core/packages/learning_tf2)
+[1.904s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/henrique/colcon_ws3/src/rviz2_marker_demo' with build type 'ament_cmake'
+[1.904s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/henrique/colcon_ws3/src/rviz2_marker_demo'
+[1.904s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.904s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.970s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/henrique/colcon_ws3/build/rviz2_marker_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/henrique/ros2_ws/install/temperature_system:/home/henrique/ros2_ws/install/temperature_monitor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/henrique/colcon_ws3/build/rviz2_marker_demo -- -j2 -l2
+[2.746s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/henrique/colcon_ws3/build/rviz2_marker_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/henrique/ros2_ws/install/temperature_system:/home/henrique/ros2_ws/install/temperature_monitor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/henrique/colcon_ws3/build/rviz2_marker_demo -- -j2 -l2
+[2.749s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/henrique/colcon_ws3/build/rviz2_marker_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/henrique/ros2_ws/install/temperature_system:/home/henrique/ros2_ws/install/temperature_monitor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/henrique/colcon_ws3/build/rviz2_marker_demo
+[2.843s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rviz2_marker_demo)
+[2.845s] Level 1:colcon.colcon_core.environment:checking '/home/henrique/colcon_ws3/install/rviz2_marker_demo' for CMake module files
+[2.843s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/henrique/colcon_ws3/build/rviz2_marker_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/henrique/ros2_ws/install/temperature_system:/home/henrique/ros2_ws/install/temperature_monitor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/henrique/colcon_ws3/build/rviz2_marker_demo
+[2.846s] Level 1:colcon.colcon_core.environment:checking '/home/henrique/colcon_ws3/install/rviz2_marker_demo' for CMake config files
+[2.847s] Level 1:colcon.colcon_core.shell:create_environment_hook('rviz2_marker_demo', 'cmake_prefix_path')
+[2.847s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/henrique/colcon_ws3/install/rviz2_marker_demo/share/rviz2_marker_demo/hook/cmake_prefix_path.ps1'
+[2.849s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/henrique/colcon_ws3/install/rviz2_marker_demo/share/rviz2_marker_demo/hook/cmake_prefix_path.dsv'
+[2.850s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/henrique/colcon_ws3/install/rviz2_marker_demo/share/rviz2_marker_demo/hook/cmake_prefix_path.sh'
+[2.852s] Level 1:colcon.colcon_core.environment:checking '/home/henrique/colcon_ws3/install/rviz2_marker_demo/lib'
+[2.852s] Level 1:colcon.colcon_core.environment:checking '/home/henrique/colcon_ws3/install/rviz2_marker_demo/bin'
+[2.852s] Level 1:colcon.colcon_core.environment:checking '/home/henrique/colcon_ws3/install/rviz2_marker_demo/lib/pkgconfig/rviz2_marker_demo.pc'
+[2.853s] Level 1:colcon.colcon_core.environment:checking '/home/henrique/colcon_ws3/install/rviz2_marker_demo/lib/python3.12/site-packages'
+[2.853s] Level 1:colcon.colcon_core.environment:checking '/home/henrique/colcon_ws3/install/rviz2_marker_demo/bin'
+[2.854s] INFO:colcon.colcon_core.shell:Creating package script '/home/henrique/colcon_ws3/install/rviz2_marker_demo/share/rviz2_marker_demo/package.ps1'
+[2.855s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/henrique/colcon_ws3/install/rviz2_marker_demo/share/rviz2_marker_demo/package.dsv'
+[2.857s] INFO:colcon.colcon_core.shell:Creating package script '/home/henrique/colcon_ws3/install/rviz2_marker_demo/share/rviz2_marker_demo/package.sh'
+[2.859s] INFO:colcon.colcon_core.shell:Creating package script '/home/henrique/colcon_ws3/install/rviz2_marker_demo/share/rviz2_marker_demo/package.bash'
+[2.861s] INFO:colcon.colcon_core.shell:Creating package script '/home/henrique/colcon_ws3/install/rviz2_marker_demo/share/rviz2_marker_demo/package.zsh'
+[2.863s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/henrique/colcon_ws3/install/rviz2_marker_demo/share/colcon-core/packages/rviz2_marker_demo)
+[2.864s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rviz2_marker_demo)
+[2.864s] Level 1:colcon.colcon_core.environment:checking '/home/henrique/colcon_ws3/install/rviz2_marker_demo' for CMake module files
+[2.867s] Level 1:colcon.colcon_core.environment:checking '/home/henrique/colcon_ws3/install/rviz2_marker_demo' for CMake config files
+[2.867s] Level 1:colcon.colcon_core.shell:create_environment_hook('rviz2_marker_demo', 'cmake_prefix_path')
+[2.869s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/henrique/colcon_ws3/install/rviz2_marker_demo/share/rviz2_marker_demo/hook/cmake_prefix_path.ps1'
+[2.871s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/henrique/colcon_ws3/install/rviz2_marker_demo/share/rviz2_marker_demo/hook/cmake_prefix_path.dsv'
+[2.873s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/henrique/colcon_ws3/install/rviz2_marker_demo/share/rviz2_marker_demo/hook/cmake_prefix_path.sh'
+[2.876s] Level 1:colcon.colcon_core.environment:checking '/home/henrique/colcon_ws3/install/rviz2_marker_demo/lib'
+[2.876s] Level 1:colcon.colcon_core.environment:checking '/home/henrique/colcon_ws3/install/rviz2_marker_demo/bin'
+[2.876s] Level 1:colcon.colcon_core.environment:checking '/home/henrique/colcon_ws3/install/rviz2_marker_demo/lib/pkgconfig/rviz2_marker_demo.pc'
+[2.877s] Level 1:colcon.colcon_core.environment:checking '/home/henrique/colcon_ws3/install/rviz2_marker_demo/lib/python3.12/site-packages'
+[2.877s] Level 1:colcon.colcon_core.environment:checking '/home/henrique/colcon_ws3/install/rviz2_marker_demo/bin'
+[2.877s] INFO:colcon.colcon_core.shell:Creating package script '/home/henrique/colcon_ws3/install/rviz2_marker_demo/share/rviz2_marker_demo/package.ps1'
+[2.878s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/henrique/colcon_ws3/install/rviz2_marker_demo/share/rviz2_marker_demo/package.dsv'
+[2.880s] INFO:colcon.colcon_core.shell:Creating package script '/home/henrique/colcon_ws3/install/rviz2_marker_demo/share/rviz2_marker_demo/package.sh'
+[2.881s] INFO:colcon.colcon_core.shell:Creating package script '/home/henrique/colcon_ws3/install/rviz2_marker_demo/share/rviz2_marker_demo/package.bash'
+[2.882s] INFO:colcon.colcon_core.shell:Creating package script '/home/henrique/colcon_ws3/install/rviz2_marker_demo/share/rviz2_marker_demo/package.zsh'
+[2.883s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/henrique/colcon_ws3/install/rviz2_marker_demo/share/colcon-core/packages/rviz2_marker_demo)
+[2.890s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/henrique/colcon_ws3/src/urdf_tutorial' with build type 'ament_cmake'
+[2.890s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/henrique/colcon_ws3/src/urdf_tutorial'
+[2.891s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.891s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.929s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/henrique/colcon_ws3/build/urdf_tutorial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/henrique/ros2_ws/install/temperature_system:/home/henrique/ros2_ws/install/temperature_monitor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/henrique/colcon_ws3/build/urdf_tutorial -- -j2 -l2
+[3.095s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/henrique/colcon_ws3/build/urdf_tutorial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/henrique/ros2_ws/install/temperature_system:/home/henrique/ros2_ws/install/temperature_monitor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/henrique/colcon_ws3/build/urdf_tutorial -- -j2 -l2
+[3.098s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/henrique/colcon_ws3/build/urdf_tutorial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/henrique/ros2_ws/install/temperature_system:/home/henrique/ros2_ws/install/temperature_monitor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/henrique/colcon_ws3/build/urdf_tutorial
+[3.147s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(urdf_tutorial)
+[3.147s] Level 1:colcon.colcon_core.environment:checking '/home/henrique/colcon_ws3/install/urdf_tutorial' for CMake module files
+[3.148s] Level 1:colcon.colcon_core.environment:checking '/home/henrique/colcon_ws3/install/urdf_tutorial' for CMake config files
+[3.148s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/henrique/colcon_ws3/build/urdf_tutorial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/henrique/ros2_ws/install/temperature_system:/home/henrique/ros2_ws/install/temperature_monitor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/henrique/colcon_ws3/build/urdf_tutorial
+[3.149s] Level 1:colcon.colcon_core.shell:create_environment_hook('urdf_tutorial', 'cmake_prefix_path')
+[3.149s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/henrique/colcon_ws3/install/urdf_tutorial/share/urdf_tutorial/hook/cmake_prefix_path.ps1'
+[3.152s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/henrique/colcon_ws3/install/urdf_tutorial/share/urdf_tutorial/hook/cmake_prefix_path.dsv'
+[3.156s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/henrique/colcon_ws3/install/urdf_tutorial/share/urdf_tutorial/hook/cmake_prefix_path.sh'
+[3.157s] Level 1:colcon.colcon_core.environment:checking '/home/henrique/colcon_ws3/install/urdf_tutorial/bin'
+[3.157s] Level 1:colcon.colcon_core.environment:checking '/home/henrique/colcon_ws3/install/urdf_tutorial/lib/pkgconfig/urdf_tutorial.pc'
+[3.158s] Level 1:colcon.colcon_core.environment:checking '/home/henrique/colcon_ws3/install/urdf_tutorial/lib/python3.12/site-packages'
+[3.158s] Level 1:colcon.colcon_core.environment:checking '/home/henrique/colcon_ws3/install/urdf_tutorial/bin'
+[3.160s] INFO:colcon.colcon_core.shell:Creating package script '/home/henrique/colcon_ws3/install/urdf_tutorial/share/urdf_tutorial/package.ps1'
+[3.161s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/henrique/colcon_ws3/install/urdf_tutorial/share/urdf_tutorial/package.dsv'
+[3.162s] INFO:colcon.colcon_core.shell:Creating package script '/home/henrique/colcon_ws3/install/urdf_tutorial/share/urdf_tutorial/package.sh'
+[3.169s] INFO:colcon.colcon_core.shell:Creating package script '/home/henrique/colcon_ws3/install/urdf_tutorial/share/urdf_tutorial/package.bash'
+[3.170s] INFO:colcon.colcon_core.shell:Creating package script '/home/henrique/colcon_ws3/install/urdf_tutorial/share/urdf_tutorial/package.zsh'
+[3.171s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/henrique/colcon_ws3/install/urdf_tutorial/share/colcon-core/packages/urdf_tutorial)
+[3.172s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(urdf_tutorial)
+[3.173s] Level 1:colcon.colcon_core.environment:checking '/home/henrique/colcon_ws3/install/urdf_tutorial' for CMake module files
+[3.173s] Level 1:colcon.colcon_core.environment:checking '/home/henrique/colcon_ws3/install/urdf_tutorial' for CMake config files
+[3.174s] Level 1:colcon.colcon_core.shell:create_environment_hook('urdf_tutorial', 'cmake_prefix_path')
+[3.174s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/henrique/colcon_ws3/install/urdf_tutorial/share/urdf_tutorial/hook/cmake_prefix_path.ps1'
+[3.177s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/henrique/colcon_ws3/install/urdf_tutorial/share/urdf_tutorial/hook/cmake_prefix_path.dsv'
+[3.178s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/henrique/colcon_ws3/install/urdf_tutorial/share/urdf_tutorial/hook/cmake_prefix_path.sh'
+[3.181s] Level 1:colcon.colcon_core.environment:checking '/home/henrique/colcon_ws3/install/urdf_tutorial/bin'
+[3.182s] Level 1:colcon.colcon_core.environment:checking '/home/henrique/colcon_ws3/install/urdf_tutorial/lib/pkgconfig/urdf_tutorial.pc'
+[3.182s] Level 1:colcon.colcon_core.environment:checking '/home/henrique/colcon_ws3/install/urdf_tutorial/lib/python3.12/site-packages'
+[3.182s] Level 1:colcon.colcon_core.environment:checking '/home/henrique/colcon_ws3/install/urdf_tutorial/bin'
+[3.182s] INFO:colcon.colcon_core.shell:Creating package script '/home/henrique/colcon_ws3/install/urdf_tutorial/share/urdf_tutorial/package.ps1'
+[3.185s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/henrique/colcon_ws3/install/urdf_tutorial/share/urdf_tutorial/package.dsv'
+[3.188s] INFO:colcon.colcon_core.shell:Creating package script '/home/henrique/colcon_ws3/install/urdf_tutorial/share/urdf_tutorial/package.sh'
+[3.190s] INFO:colcon.colcon_core.shell:Creating package script '/home/henrique/colcon_ws3/install/urdf_tutorial/share/urdf_tutorial/package.bash'
+[3.193s] INFO:colcon.colcon_core.shell:Creating package script '/home/henrique/colcon_ws3/install/urdf_tutorial/share/urdf_tutorial/package.zsh'
+[3.193s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/henrique/colcon_ws3/install/urdf_tutorial/share/colcon-core/packages/urdf_tutorial)
+[3.417s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/henrique/colcon_ws3/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/henrique/ros2_ws/install/temperature_system:/home/henrique/ros2_ws/install/temperature_monitor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/henrique/colcon_ws3/build/custom_interfaces -- -j2 -l2
+[3.419s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/henrique/colcon_ws3/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/henrique/ros2_ws/install/temperature_system:/home/henrique/ros2_ws/install/temperature_monitor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/henrique/colcon_ws3/build/custom_interfaces
+[3.666s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_interfaces)
+[3.666s] Level 1:colcon.colcon_core.environment:checking '/home/henrique/colcon_ws3/install/custom_interfaces' for CMake module files
+[3.669s] Level 1:colcon.colcon_core.environment:checking '/home/henrique/colcon_ws3/install/custom_interfaces' for CMake config files
+[3.670s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/henrique/colcon_ws3/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/henrique/ros2_ws/install/temperature_system:/home/henrique/ros2_ws/install/temperature_monitor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/henrique/colcon_ws3/build/custom_interfaces
+[3.672s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interfaces', 'cmake_prefix_path')
+[3.672s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/henrique/colcon_ws3/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.ps1'
+[3.678s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/henrique/colcon_ws3/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.dsv'
+[3.683s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/henrique/colcon_ws3/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.sh'
+[3.687s] Level 1:colcon.colcon_core.environment:checking '/home/henrique/colcon_ws3/install/custom_interfaces/lib'
+[3.687s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interfaces', 'ld_library_path_lib')
+[3.687s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/henrique/colcon_ws3/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.ps1'
+[3.688s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/henrique/colcon_ws3/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.dsv'
+[3.689s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/henrique/colcon_ws3/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.sh'
+[3.690s] Level 1:colcon.colcon_core.environment:checking '/home/henrique/colcon_ws3/install/custom_interfaces/bin'
+[3.690s] Level 1:colcon.colcon_core.environment:checking '/home/henrique/colcon_ws3/install/custom_interfaces/lib/pkgconfig/custom_interfaces.pc'
+[3.691s] Level 1:colcon.colcon_core.environment:checking '/home/henrique/colcon_ws3/install/custom_interfaces/lib/python3.12/site-packages'
+[3.691s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interfaces', 'pythonpath')
+[3.692s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/henrique/colcon_ws3/install/custom_interfaces/share/custom_interfaces/hook/pythonpath.ps1'
+[3.693s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/henrique/colcon_ws3/install/custom_interfaces/share/custom_interfaces/hook/pythonpath.dsv'
+[3.693s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/henrique/colcon_ws3/install/custom_interfaces/share/custom_interfaces/hook/pythonpath.sh'
+[3.695s] Level 1:colcon.colcon_core.environment:checking '/home/henrique/colcon_ws3/install/custom_interfaces/bin'
+[3.695s] INFO:colcon.colcon_core.shell:Creating package script '/home/henrique/colcon_ws3/install/custom_interfaces/share/custom_interfaces/package.ps1'
+[3.696s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/henrique/colcon_ws3/install/custom_interfaces/share/custom_interfaces/package.dsv'
+[3.697s] INFO:colcon.colcon_core.shell:Creating package script '/home/henrique/colcon_ws3/install/custom_interfaces/share/custom_interfaces/package.sh'
+[3.698s] INFO:colcon.colcon_core.shell:Creating package script '/home/henrique/colcon_ws3/install/custom_interfaces/share/custom_interfaces/package.bash'
+[3.699s] INFO:colcon.colcon_core.shell:Creating package script '/home/henrique/colcon_ws3/install/custom_interfaces/share/custom_interfaces/package.zsh'
+[3.700s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/henrique/colcon_ws3/install/custom_interfaces/share/colcon-core/packages/custom_interfaces)
+[3.701s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_interfaces)
+[3.701s] Level 1:colcon.colcon_core.environment:checking '/home/henrique/colcon_ws3/install/custom_interfaces' for CMake module files
+[3.702s] Level 1:colcon.colcon_core.environment:checking '/home/henrique/colcon_ws3/install/custom_interfaces' for CMake config files
+[3.703s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interfaces', 'cmake_prefix_path')
+[3.703s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/henrique/colcon_ws3/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.ps1'
+[3.704s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/henrique/colcon_ws3/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.dsv'
+[3.705s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/henrique/colcon_ws3/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.sh'
+[3.706s] Level 1:colcon.colcon_core.environment:checking '/home/henrique/colcon_ws3/install/custom_interfaces/lib'
+[3.706s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interfaces', 'ld_library_path_lib')
+[3.706s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/henrique/colcon_ws3/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.ps1'
+[3.707s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/henrique/colcon_ws3/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.dsv'
+[3.708s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/henrique/colcon_ws3/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.sh'
+[3.709s] Level 1:colcon.colcon_core.environment:checking '/home/henrique/colcon_ws3/install/custom_interfaces/bin'
+[3.709s] Level 1:colcon.colcon_core.environment:checking '/home/henrique/colcon_ws3/install/custom_interfaces/lib/pkgconfig/custom_interfaces.pc'
+[3.710s] Level 1:colcon.colcon_core.environment:checking '/home/henrique/colcon_ws3/install/custom_interfaces/lib/python3.12/site-packages'
+[3.710s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interfaces', 'pythonpath')
+[3.710s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/henrique/colcon_ws3/install/custom_interfaces/share/custom_interfaces/hook/pythonpath.ps1'
+[3.711s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/henrique/colcon_ws3/install/custom_interfaces/share/custom_interfaces/hook/pythonpath.dsv'
+[3.713s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/henrique/colcon_ws3/install/custom_interfaces/share/custom_interfaces/hook/pythonpath.sh'
+[3.715s] Level 1:colcon.colcon_core.environment:checking '/home/henrique/colcon_ws3/install/custom_interfaces/bin'
+[3.716s] INFO:colcon.colcon_core.shell:Creating package script '/home/henrique/colcon_ws3/install/custom_interfaces/share/custom_interfaces/package.ps1'
+[3.717s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/henrique/colcon_ws3/install/custom_interfaces/share/custom_interfaces/package.dsv'
+[3.717s] INFO:colcon.colcon_core.shell:Creating package script '/home/henrique/colcon_ws3/install/custom_interfaces/share/custom_interfaces/package.sh'
+[3.718s] INFO:colcon.colcon_core.shell:Creating package script '/home/henrique/colcon_ws3/install/custom_interfaces/share/custom_interfaces/package.bash'
+[3.719s] INFO:colcon.colcon_core.shell:Creating package script '/home/henrique/colcon_ws3/install/custom_interfaces/share/custom_interfaces/package.zsh'
+[3.720s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/henrique/colcon_ws3/install/custom_interfaces/share/colcon-core/packages/custom_interfaces)
+[3.721s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/henrique/colcon_ws3/src/all_introduction_to_ros2_packages/pubsub_custom_param' with build type 'ament_cmake'
+[3.721s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/henrique/colcon_ws3/src/all_introduction_to_ros2_packages/pubsub_custom_param'
+[3.721s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.721s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.760s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/henrique/colcon_ws3/build/pubsub_custom_param': CMAKE_PREFIX_PATH=/home/henrique/colcon_ws3/install/custom_interfaces:/home/henrique/colcon_ws3/install/urdf_tutorial:/home/henrique/colcon_ws3/install/rviz2_marker_demo:/home/henrique/colcon_ws3/install/pubsub_custom_param:/home/henrique/colcon_ws3/install/learning_tf2:/home/henrique/ros2_ws/install/simple_robot_description:/home/henrique/ros2_ws/install/my_robot_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/henrique/ros2_ws/install/temperature_system:/home/henrique/ros2_ws/install/temperature_monitor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/henrique/colcon_ws3/build/pubsub_custom_param -- -j2 -l2
+[3.951s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/henrique/colcon_ws3/build/pubsub_custom_param' returned '0': CMAKE_PREFIX_PATH=/home/henrique/colcon_ws3/install/custom_interfaces:/home/henrique/colcon_ws3/install/urdf_tutorial:/home/henrique/colcon_ws3/install/rviz2_marker_demo:/home/henrique/colcon_ws3/install/pubsub_custom_param:/home/henrique/colcon_ws3/install/learning_tf2:/home/henrique/ros2_ws/install/simple_robot_description:/home/henrique/ros2_ws/install/my_robot_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/henrique/ros2_ws/install/temperature_system:/home/henrique/ros2_ws/install/temperature_monitor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/henrique/colcon_ws3/build/pubsub_custom_param -- -j2 -l2
+[3.954s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/henrique/colcon_ws3/build/pubsub_custom_param': CMAKE_PREFIX_PATH=/home/henrique/colcon_ws3/install/custom_interfaces:/home/henrique/colcon_ws3/install/urdf_tutorial:/home/henrique/colcon_ws3/install/rviz2_marker_demo:/home/henrique/colcon_ws3/install/pubsub_custom_param:/home/henrique/colcon_ws3/install/learning_tf2:/home/henrique/ros2_ws/install/simple_robot_description:/home/henrique/ros2_ws/install/my_robot_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/henrique/ros2_ws/install/temperature_system:/home/henrique/ros2_ws/install/temperature_monitor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/henrique/colcon_ws3/build/pubsub_custom_param
+[3.976s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pubsub_custom_param)
+[3.977s] Level 1:colcon.colcon_core.environment:checking '/home/henrique/colcon_ws3/install/pubsub_custom_param' for CMake module files
+[3.977s] Level 1:colcon.colcon_core.environment:checking '/home/henrique/colcon_ws3/install/pubsub_custom_param' for CMake config files
+[3.977s] Level 1:colcon.colcon_core.shell:create_environment_hook('pubsub_custom_param', 'cmake_prefix_path')
+[3.977s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/henrique/colcon_ws3/install/pubsub_custom_param/share/pubsub_custom_param/hook/cmake_prefix_path.ps1'
+[3.978s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/henrique/colcon_ws3/build/pubsub_custom_param' returned '0': CMAKE_PREFIX_PATH=/home/henrique/colcon_ws3/install/custom_interfaces:/home/henrique/colcon_ws3/install/urdf_tutorial:/home/henrique/colcon_ws3/install/rviz2_marker_demo:/home/henrique/colcon_ws3/install/pubsub_custom_param:/home/henrique/colcon_ws3/install/learning_tf2:/home/henrique/ros2_ws/install/simple_robot_description:/home/henrique/ros2_ws/install/my_robot_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/henrique/ros2_ws/install/temperature_system:/home/henrique/ros2_ws/install/temperature_monitor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/henrique/colcon_ws3/build/pubsub_custom_param
+[3.979s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/henrique/colcon_ws3/install/pubsub_custom_param/share/pubsub_custom_param/hook/cmake_prefix_path.dsv'
+[3.980s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/henrique/colcon_ws3/install/pubsub_custom_param/share/pubsub_custom_param/hook/cmake_prefix_path.sh'
+[3.981s] Level 1:colcon.colcon_core.environment:checking '/home/henrique/colcon_ws3/install/pubsub_custom_param/lib'
+[3.981s] Level 1:colcon.colcon_core.environment:checking '/home/henrique/colcon_ws3/install/pubsub_custom_param/bin'
+[3.981s] Level 1:colcon.colcon_core.environment:checking '/home/henrique/colcon_ws3/install/pubsub_custom_param/lib/pkgconfig/pubsub_custom_param.pc'
+[3.981s] Level 1:colcon.colcon_core.environment:checking '/home/henrique/colcon_ws3/install/pubsub_custom_param/lib/python3.12/site-packages'
+[3.981s] Level 1:colcon.colcon_core.environment:checking '/home/henrique/colcon_ws3/install/pubsub_custom_param/bin'
+[3.981s] INFO:colcon.colcon_core.shell:Creating package script '/home/henrique/colcon_ws3/install/pubsub_custom_param/share/pubsub_custom_param/package.ps1'
+[3.982s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/henrique/colcon_ws3/install/pubsub_custom_param/share/pubsub_custom_param/package.dsv'
+[3.983s] INFO:colcon.colcon_core.shell:Creating package script '/home/henrique/colcon_ws3/install/pubsub_custom_param/share/pubsub_custom_param/package.sh'
+[3.984s] INFO:colcon.colcon_core.shell:Creating package script '/home/henrique/colcon_ws3/install/pubsub_custom_param/share/pubsub_custom_param/package.bash'
+[3.984s] INFO:colcon.colcon_core.shell:Creating package script '/home/henrique/colcon_ws3/install/pubsub_custom_param/share/pubsub_custom_param/package.zsh'
+[3.985s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/henrique/colcon_ws3/install/pubsub_custom_param/share/colcon-core/packages/pubsub_custom_param)
+[3.986s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pubsub_custom_param)
+[3.986s] Level 1:colcon.colcon_core.environment:checking '/home/henrique/colcon_ws3/install/pubsub_custom_param' for CMake module files
+[3.986s] Level 1:colcon.colcon_core.environment:checking '/home/henrique/colcon_ws3/install/pubsub_custom_param' for CMake config files
+[3.986s] Level 1:colcon.colcon_core.shell:create_environment_hook('pubsub_custom_param', 'cmake_prefix_path')
+[3.986s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/henrique/colcon_ws3/install/pubsub_custom_param/share/pubsub_custom_param/hook/cmake_prefix_path.ps1'
+[3.987s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/henrique/colcon_ws3/install/pubsub_custom_param/share/pubsub_custom_param/hook/cmake_prefix_path.dsv'
+[3.988s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/henrique/colcon_ws3/install/pubsub_custom_param/share/pubsub_custom_param/hook/cmake_prefix_path.sh'
+[3.989s] Level 1:colcon.colcon_core.environment:checking '/home/henrique/colcon_ws3/install/pubsub_custom_param/lib'
+[3.989s] Level 1:colcon.colcon_core.environment:checking '/home/henrique/colcon_ws3/install/pubsub_custom_param/bin'
+[3.989s] Level 1:colcon.colcon_core.environment:checking '/home/henrique/colcon_ws3/install/pubsub_custom_param/lib/pkgconfig/pubsub_custom_param.pc'
+[3.989s] Level 1:colcon.colcon_core.environment:checking '/home/henrique/colcon_ws3/install/pubsub_custom_param/lib/python3.12/site-packages'
+[3.990s] Level 1:colcon.colcon_core.environment:checking '/home/henrique/colcon_ws3/install/pubsub_custom_param/bin'
+[3.990s] INFO:colcon.colcon_core.shell:Creating package script '/home/henrique/colcon_ws3/install/pubsub_custom_param/share/pubsub_custom_param/package.ps1'
+[3.991s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/henrique/colcon_ws3/install/pubsub_custom_param/share/pubsub_custom_param/package.dsv'
+[3.991s] INFO:colcon.colcon_core.shell:Creating package script '/home/henrique/colcon_ws3/install/pubsub_custom_param/share/pubsub_custom_param/package.sh'
+[3.992s] INFO:colcon.colcon_core.shell:Creating package script '/home/henrique/colcon_ws3/install/pubsub_custom_param/share/pubsub_custom_param/package.bash'
+[3.992s] INFO:colcon.colcon_core.shell:Creating package script '/home/henrique/colcon_ws3/install/pubsub_custom_param/share/pubsub_custom_param/package.zsh'
+[3.993s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/henrique/colcon_ws3/install/pubsub_custom_param/share/colcon-core/packages/pubsub_custom_param)
+[3.993s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.994s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.994s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.995s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.016s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.016s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.017s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.048s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.048s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/henrique/colcon_ws3/install/local_setup.ps1'
+[4.051s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/henrique/colcon_ws3/install/_local_setup_util_ps1.py'
+[4.054s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/henrique/colcon_ws3/install/setup.ps1'
+[4.057s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/henrique/colcon_ws3/install/local_setup.sh'
+[4.060s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/henrique/colcon_ws3/install/_local_setup_util_sh.py'
+[4.061s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/henrique/colcon_ws3/install/setup.sh'
+[4.063s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/henrique/colcon_ws3/install/local_setup.bash'
+[4.068s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/henrique/colcon_ws3/install/setup.bash'
+[4.071s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/henrique/colcon_ws3/install/local_setup.zsh'
+[4.075s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/henrique/colcon_ws3/install/setup.zsh'

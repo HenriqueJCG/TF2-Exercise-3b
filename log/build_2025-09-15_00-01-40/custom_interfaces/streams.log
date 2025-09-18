@@ -1,5 +1,0 @@
-[0.079s] Invoking command in '/home/henrique/colcon_ws3/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/henrique/ros2_ws/install/temperature_system:/home/henrique/ros2_ws/install/temperature_monitor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/henrique/colcon_ws3/build/custom_interfaces -- -j2 -l2
-[0.258s] [0mCMake Error: The source directory "/home/henrique/colcon_ws3/src/custom_interfaces" does not exist.
-[0.260s] Specify --help for usage, or press the help button on the CMake GUI.[0m
-[0.271s] gmake: *** [Makefile:815: cmake_check_build_system] Error 1
-[0.288s] Invoked command in '/home/henrique/colcon_ws3/build/custom_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/henrique/ros2_ws/install/temperature_system:/home/henrique/ros2_ws/install/temperature_monitor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/henrique/colcon_ws3/build/custom_interfaces -- -j2 -l2
