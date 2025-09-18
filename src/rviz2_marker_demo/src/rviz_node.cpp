@@ -62,14 +62,14 @@ public:
     
     // Initialize the transform broadcaster
     tf_broadcaster_ =
-      std::make_shared<tf2_ros::TransformBroadcaster>(this);
+      std::make_unique<tf2_ros::TransformBroadcaster>(*this);
     
     SetWorld();
 
     timer_ = create_wall_timer(
       500ms, std::bind(&MarkerPublisherNode::timer_callback, this));
     
-  }
+  } 
 
   void timer_callback()
   {
@@ -343,7 +343,7 @@ public:
 private:
   rclcpp::Publisher<visualization_msgs::msg::MarkerArray>::SharedPtr publisher_;
   rclcpp::TimerBase::SharedPtr timer_;
-  std::shared_ptr<tf2_ros::TransformBroadcaster> tf_broadcaster_;
+  std::unique_ptr<tf2_ros::TransformBroadcaster> tf_broadcaster_;
   std::vector<ObjectInfo> objects;
   visualization_msgs::msg::MarkerArray markers_message_;
 };

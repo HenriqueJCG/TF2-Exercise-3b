@@ -19,3 +19,7 @@ Update the node that publishes the object markers array to broadcast the transfo
 - **3)**
 
 Add static transform in the *exercise_3b.launch.py* launch file between tf_11 and grasp_11.
+
+---
+
+**Youtube Video:** [https://youtu.be/irVREaEMoP0](https://youtu.be/irVREaEMoP0)
